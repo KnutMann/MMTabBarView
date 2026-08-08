@@ -1,6 +1,14 @@
 MMTabBarView
 ============
 
+**Note:** This is a lightly patched fork used by the
+[Adium Apple Silicon revival](https://github.com/KnutMann/adium)
+(deployment target raised, an Availability import fix for current
+SDKs, ad-hoc code signing). All credit for MMTabBarView belongs to its
+original authors; upstream lives at
+https://github.com/adium/MMTabBarView.
+
+
 A Mac OS X tab bar view that works on 10.10+ with Xcode 9.3 or higher.<br>
 MMTabBarView is a modernized and view based re-write of PSMTabBarControl, <br>
 which can be found here: https://github.com/dorianj/PSMTabBarControl<br>
