@@ -171,7 +171,7 @@ relocations:
   - { offset: 0x102291, size: 0x8, addend: 0x0, symName: '-[MMTabBarView acceptsFirstResponder]', symObjAddr: 0x6ECC, symBinAddr: 0x7D0D, symSize: 0x8 }
   - { offset: 0x1022C5, size: 0x8, addend: 0x0, symName: '-[MMTabBarView mouseDown:]', symObjAddr: 0x6ED4, symBinAddr: 0x7D15, symSize: 0x10D }
   - { offset: 0x102401, size: 0x8, addend: 0x0, symName: '-[MMTabBarView fireSpring:]', symObjAddr: 0x6FE1, symBinAddr: 0x7E22, symSize: 0x159 }
-  - { offset: 0x102580, size: 0x8, addend: 0x0, symName: '-[MMTabBarView fireSpring:].cold.1', symObjAddr: 0xAD89, symBinAddr: 0x33EA0, symSize: 0x7F }
+  - { offset: 0x102580, size: 0x8, addend: 0x0, symName: '-[MMTabBarView fireSpring:].cold.1', symObjAddr: 0xAD89, symBinAddr: 0x340C0, symSize: 0x7F }
   - { offset: 0x1025C6, size: 0x8, addend: 0x0, symName: '-[MMTabBarView validateMenuItem:]', symObjAddr: 0x713A, symBinAddr: 0x7F7B, symSize: 0x18A }
   - { offset: 0x10277C, size: 0x8, addend: 0x0, symName: '-[MMTabBarView tabView:didSelectTabViewItem:]', symObjAddr: 0x72C4, symBinAddr: 0x8105, symSize: 0xE0 }
   - { offset: 0x102896, size: 0x8, addend: 0x0, symName: '-[MMTabBarView tabView:shouldSelectTabViewItem:]', symObjAddr: 0x73A4, symBinAddr: 0x81E5, symSize: 0xD7 }
@@ -384,7 +384,7 @@ relocations:
   - { offset: 0x10E8FD, size: 0x8, addend: 0x0, symName: '-[MMSlideButtonsAnimation initWithTabBarButtons:]', symObjAddr: 0x0, symBinAddr: 0xFD62, symSize: 0x7C }
   - { offset: 0x10E98F, size: 0x8, addend: 0x0, symName: '-[MMSlideButtonsAnimation initWithTabBarButtons:]', symObjAddr: 0x0, symBinAddr: 0xFD62, symSize: 0x7C }
   - { offset: 0x10EA1A, size: 0x8, addend: 0x0, symName: '-[MMSlideButtonsAnimation addAnimationDictionary:]', symObjAddr: 0x7C, symBinAddr: 0xFDDE, symSize: 0xB0 }
-  - { offset: 0x10EB25, size: 0x8, addend: 0x0, symName: '-[MMSlideButtonsAnimation addAnimationDictionary:].cold.1', symObjAddr: 0x49B, symBinAddr: 0x33F2A, symSize: 0x79 }
+  - { offset: 0x10EB25, size: 0x8, addend: 0x0, symName: '-[MMSlideButtonsAnimation addAnimationDictionary:].cold.1', symObjAddr: 0x49B, symBinAddr: 0x3414A, symSize: 0x79 }
   - { offset: 0x10EB5A, size: 0x8, addend: 0x0, symName: '-[MMSlideButtonsAnimation _viewAnimationsForButtons:]', symObjAddr: 0x12C, symBinAddr: 0xFE8E, symSize: 0x36F }
   - { offset: 0x10EF81, size: 0x8, addend: 0x0, symName: '+[MMTabBarButton initialize]', symObjAddr: 0x0, symBinAddr: 0x101FD, symSize: 0xBB }
   - { offset: 0x10F8A8, size: 0x8, addend: 0x0, symName: '+[MMTabBarButton initialize]', symObjAddr: 0x0, symBinAddr: 0x101FD, symSize: 0xBB }
@@ -435,7 +435,7 @@ relocations:
   - { offset: 0x110EDB, size: 0x8, addend: 0x0, symName: '-[MMTabBarButton _closeButtonRectForBounds:]', symObjAddr: 0x116F, symBinAddr: 0x1134E, symSize: 0x78 }
   - { offset: 0x110F43, size: 0x8, addend: 0x0, symName: '-[MMTabBarButton _indicatorRectForBounds:]', symObjAddr: 0x11E7, symBinAddr: 0x113C6, symSize: 0x78 }
   - { offset: 0x110FAB, size: 0x8, addend: 0x0, symName: '-[MMTabBarButton _propagateValue:forBinding:]', symObjAddr: 0x125F, symBinAddr: 0x1143E, symSize: 0x394 }
-  - { offset: 0x1112FF, size: 0x8, addend: 0x0, symName: '-[MMTabBarButton _propagateValue:forBinding:].cold.1', symObjAddr: 0x16B0, symBinAddr: 0x33FA3, symSize: 0x7B }
+  - { offset: 0x1112FF, size: 0x8, addend: 0x0, symName: '-[MMTabBarButton _propagateValue:forBinding:].cold.1', symObjAddr: 0x16B0, symBinAddr: 0x341C3, symSize: 0x7B }
   - { offset: 0x111334, size: 0x8, addend: 0x0, symName: '-[MMTabBarButton stackingFrame]', symObjAddr: 0x15F3, symBinAddr: 0x117D2, symSize: 0x2C }
   - { offset: 0x11136B, size: 0x8, addend: 0x0, symName: '-[MMTabBarButton setStackingFrame:]', symObjAddr: 0x161F, symBinAddr: 0x117FE, symSize: 0x23 }
   - { offset: 0x1113AB, size: 0x8, addend: 0x0, symName: '-[MMTabBarButton closeButton]', symObjAddr: 0x1642, symBinAddr: 0x11821, symSize: 0x16 }
@@ -585,7 +585,7 @@ relocations:
   - { offset: 0x11D4C8, size: 0x8, addend: 0x0, symName: '-[MMTabDragAssistant _slideBackTabBarButton:inTabBarView:]', symObjAddr: 0x3440, symBinAddr: 0x1B9BF, symSize: 0xFA }
   - { offset: 0x11D63B, size: 0x8, addend: 0x0, symName: '-[MMTabDragAssistant _moveAttachedTabBarButton:inTabBarView:fromIndex:toIndex:]', symObjAddr: 0x353A, symBinAddr: 0x1BAB9, symSize: 0x721 }
   - { offset: 0x11DAA9, size: 0x8, addend: 0x0, symName: '-[MMTabDragAssistant _draggingExitedTabBarView:withPasteboardItem:]', symObjAddr: 0x3C5B, symBinAddr: 0x1C1DA, symSize: 0x1FD }
-  - { offset: 0x11DD3A, size: 0x8, addend: 0x0, symName: '-[MMTabDragAssistant _draggingExitedTabBarView:withPasteboardItem:].cold.1', symObjAddr: 0x4ABC, symBinAddr: 0x3401E, symSize: 0x7B }
+  - { offset: 0x11DD3A, size: 0x8, addend: 0x0, symName: '-[MMTabDragAssistant _draggingExitedTabBarView:withPasteboardItem:].cold.1', symObjAddr: 0x4ABC, symBinAddr: 0x3423E, symSize: 0x7B }
   - { offset: 0x11DD6F, size: 0x8, addend: 0x0, symName: '-[MMTabDragAssistant _tabPasteboardItemOfDraggingInfo:]', symObjAddr: 0x3E58, symBinAddr: 0x1C3D7, symSize: 0x1D3 }
   - { offset: 0x11DECE, size: 0x8, addend: 0x0, symName: '-[MMTabDragAssistant _beginDraggingWindowForPasteboardItem:isSourceWindow:]', symObjAddr: 0x402B, symBinAddr: 0x1C5AA, symSize: 0x55F }
   - { offset: 0x11E2DC, size: 0x8, addend: 0x0, symName: '-[MMTabDragAssistant _endDraggingWindowForPasteboardItem:]', symObjAddr: 0x458A, symBinAddr: 0x1CB09, symSize: 0x101 }
@@ -659,285 +659,285 @@ relocations:
   - { offset: 0x1212EB, size: 0x8, addend: 0x0, symName: '-[MMMojaveTabStyle setLeftMarginForTabBarView:]', symObjAddr: 0xF6C, symBinAddr: 0x1EA77, symSize: 0xB }
   - { offset: 0x121328, size: 0x8, addend: 0x0, symName: '-[MMMojaveTabStyle needsResizeTabsToFitTotalWidth]', symObjAddr: 0xF77, symBinAddr: 0x1EA82, symSize: 0xA }
   - { offset: 0x12135D, size: 0x8, addend: 0x0, symName: '-[MMMojaveTabStyle setNeedsResizeTabsToFitTotalWidth:]', symObjAddr: 0xF81, symBinAddr: 0x1EA8C, symSize: 0x9 }
-  - { offset: 0x121C77, size: 0x8, addend: 0x0, symName: '+[MMTahoeTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x1EA95, symSize: 0xD }
-  - { offset: 0x121E74, size: 0x8, addend: 0x0, symName: '+[MMTahoeTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x1EA95, symSize: 0xD }
-  - { offset: 0x121EA7, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle name]', symObjAddr: 0xD, symBinAddr: 0x1EAA2, symSize: 0x2B }
-  - { offset: 0x121EFF, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle intrinsicContentSizeOfTabBarView:]', symObjAddr: 0x38, symBinAddr: 0x1EACD, symSize: 0x19 }
-  - { offset: 0x121F3E, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle leftMarginForTabBarView:]', symObjAddr: 0x51, symBinAddr: 0x1EAE6, symSize: 0x28 }
-  - { offset: 0x121F96, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle rightMarginForTabBarView:]', symObjAddr: 0x79, symBinAddr: 0x1EB0E, symSize: 0x28 }
-  - { offset: 0x121FEE, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle heightOfTabBarButtonsForTabBarView:]', symObjAddr: 0xA1, symBinAddr: 0x1EB36, symSize: 0xE }
-  - { offset: 0x12202D, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle overflowButtonSizeForTabBarView:]', symObjAddr: 0xAF, symBinAddr: 0x1EB44, symSize: 0x16 }
-  - { offset: 0x12206C, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle drawingRectForBounds:ofTabCell:]', symObjAddr: 0xC5, symBinAddr: 0x1EB5A, symSize: 0x59 }
-  - { offset: 0x122131, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle _leadingSlotRectForBounds:ofTabCell:imageSize:]', symObjAddr: 0x11E, symBinAddr: 0x1EBB3, symSize: 0x10A }
-  - { offset: 0x12222D, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle iconRectForBounds:ofTabCell:]', symObjAddr: 0x228, symBinAddr: 0x1ECBD, symSize: 0x19E }
-  - { offset: 0x1223BF, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle closeButtonRectForBounds:ofTabCell:]', symObjAddr: 0x3C6, symBinAddr: 0x1EE5B, symSize: 0xFD }
-  - { offset: 0x12250A, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle titleRectForBounds:ofTabCell:]', symObjAddr: 0x4C3, symBinAddr: 0x1EF58, symSize: 0x394 }
-  - { offset: 0x12273D, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle desiredWidthOfTabCell:]', symObjAddr: 0x857, symBinAddr: 0x1F2EC, symSize: 0x132 }
-  - { offset: 0x12284D, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle drawIconOfTabCell:withFrame:inView:]', symObjAddr: 0x989, symBinAddr: 0x1F41E, symSize: 0x94 }
-  - { offset: 0x122937, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle drawCloseButtonOfTabCell:withFrame:inView:]', symObjAddr: 0xA1D, symBinAddr: 0x1F4B2, symSize: 0x239 }
-  - { offset: 0x122B02, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle closeButtonImageOfType:forTabCell:]', symObjAddr: 0xC56, symBinAddr: 0x1F6EB, symSize: 0x90 }
-  - { offset: 0x122BAA, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle attributedStringValueForTabCell:]', symObjAddr: 0xCE6, symBinAddr: 0x1F77B, symSize: 0xD1 }
-  - { offset: 0x122CCE, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle drawBezelOfTabBarView:inRect:]', symObjAddr: 0xDB7, symBinAddr: 0x1F84C, symSize: 0xE8 }
-  - { offset: 0x122DDC, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle drawBezelOfTabCell:withFrame:inView:]', symObjAddr: 0xE9F, symBinAddr: 0x1F934, symSize: 0x82 }
-  - { offset: 0x122EBC, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle drawBezelOfOverflowButton:ofTabBarView:inRect:]', symObjAddr: 0xF21, symBinAddr: 0x1F9B6, symSize: 0xD1 }
-  - { offset: 0x122FD2, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle _drawPillInRect:usingStatesOfAttachedButton:ofTabBarView:]', symObjAddr: 0xFF2, symBinAddr: 0x1FA87, symSize: 0x197 }
-  - { offset: 0x123A9D, size: 0x8, addend: 0x0, symName: '-[MMTabPasteboardItem init]', symObjAddr: 0x0, symBinAddr: 0x1FC1E, symSize: 0x49 }
-  - { offset: 0x123B1A, size: 0x8, addend: 0x0, symName: '-[MMTabPasteboardItem init]', symObjAddr: 0x0, symBinAddr: 0x1FC1E, symSize: 0x49 }
-  - { offset: 0x123B51, size: 0x8, addend: 0x0, symName: '-[MMTabPasteboardItem sourceIndex]', symObjAddr: 0x49, symBinAddr: 0x1FC67, symSize: 0x11 }
-  - { offset: 0x123B86, size: 0x8, addend: 0x0, symName: '-[MMTabPasteboardItem setSourceIndex:]', symObjAddr: 0x5A, symBinAddr: 0x1FC78, symSize: 0x11 }
-  - { offset: 0x123C40, size: 0x8, addend: 0x0, symName: '+[MMAdiumTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x1FC89, symSize: 0xD }
-  - { offset: 0x123E76, size: 0x8, addend: 0x0, symName: '+[MMAdiumTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x1FC89, symSize: 0xD }
-  - { offset: 0x123EA9, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle name]', symObjAddr: 0xD, symBinAddr: 0x1FC96, symSize: 0x2B }
-  - { offset: 0x123F01, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle init]', symObjAddr: 0x38, symBinAddr: 0x1FCC1, symSize: 0x52 }
-  - { offset: 0x123F4C, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle leftMarginForTabBarView:]', symObjAddr: 0x8A, symBinAddr: 0x1FD13, symSize: 0x28 }
-  - { offset: 0x123FA4, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle rightMarginForTabBarView:]', symObjAddr: 0xB2, symBinAddr: 0x1FD3B, symSize: 0x28 }
-  - { offset: 0x123FFC, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle topMarginForTabBarView:]', symObjAddr: 0xDA, symBinAddr: 0x1FD63, symSize: 0x26 }
-  - { offset: 0x124054, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle draggingRectForTabButton:ofTabBarView:]', symObjAddr: 0x100, symBinAddr: 0x1FD89, symSize: 0xB6 }
-  - { offset: 0x124140, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle closeButtonImageOfType:forTabCell:]', symObjAddr: 0x1B6, symBinAddr: 0x1FE3F, symSize: 0x32 }
-  - { offset: 0x1241A7, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle heightOfTabBarButtonsForTabBarView:]', symObjAddr: 0x1E8, symBinAddr: 0x1FE71, symSize: 0x2A }
-  - { offset: 0x12420F, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawingRectForBounds:ofTabCell:]', symObjAddr: 0x212, symBinAddr: 0x1FE9B, symSize: 0x109 }
-  - { offset: 0x12434C, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle closeButtonRectForBounds:ofTabCell:]', symObjAddr: 0x31B, symBinAddr: 0x1FFA4, symSize: 0x2B5 }
-  - { offset: 0x12455C, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle iconRectForBounds:ofTabCell:]', symObjAddr: 0x5D0, symBinAddr: 0x20259, symSize: 0x241 }
-  - { offset: 0x12476D, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle titleRectForBounds:ofTabCell:]', symObjAddr: 0x811, symBinAddr: 0x2049A, symSize: 0x6BD }
-  - { offset: 0x124B2C, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle indicatorRectForBounds:ofTabCell:]', symObjAddr: 0xECE, symBinAddr: 0x20B57, symSize: 0x10B }
-  - { offset: 0x124C85, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle objectCounterRectForBounds:ofTabCell:]', symObjAddr: 0xFD9, symBinAddr: 0x20C62, symSize: 0x1FA }
-  - { offset: 0x124DBA, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle largeImageRectForBounds:ofTabCell:]', symObjAddr: 0x11D3, symBinAddr: 0x20E5C, symSize: 0x19E }
-  - { offset: 0x124F58, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawBezelOfTabBarView:inRect:]', symObjAddr: 0x1371, symBinAddr: 0x20FFA, symSize: 0x5A3 }
-  - { offset: 0x1254B9, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawBezelOfButton:atIndex:inButtons:indexOfSelectedButton:tabBarView:inRect:]', symObjAddr: 0x1914, symBinAddr: 0x2159D, symSize: 0xA1 }
-  - { offset: 0x1255C4, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawBezelOfTabCell:withFrame:inView:]', symObjAddr: 0x19B5, symBinAddr: 0x2163E, symSize: 0x8B }
-  - { offset: 0x1256B0, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawBezelOfOverflowButton:ofTabBarView:inRect:]', symObjAddr: 0x1A40, symBinAddr: 0x216C9, symSize: 0x331 }
-  - { offset: 0x125A87, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawIconOfTabCell:withFrame:inView:]', symObjAddr: 0x1D71, symBinAddr: 0x219FA, symSize: 0xFA }
-  - { offset: 0x125BCA, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawObjectCounterOfTabCell:withFrame:inView:]', symObjAddr: 0x1E6B, symBinAddr: 0x21AF4, symSize: 0xE2 }
-  - { offset: 0x125D17, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawCloseButtonOfTabCell:withFrame:inView:]', symObjAddr: 0x1F4D, symBinAddr: 0x21BD6, symSize: 0xEF }
-  - { offset: 0x125E64, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle _loadImages]', symObjAddr: 0x203C, symBinAddr: 0x21CC5, symSize: 0x21D }
-  - { offset: 0x126032, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle _drawBezelInRect:withCapMask:usingStatesOfAttachedButton:ofTabBarView:applyShadow:drawRollovers:]', symObjAddr: 0x2259, symBinAddr: 0x21EE2, symSize: 0xB56 }
-  - { offset: 0x126BA2, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle _drawBezelWithFrame:usingStatesOfAttachedButton:ofTabBarView:applyShadow:drawRollovers:]', symObjAddr: 0x2DAF, symBinAddr: 0x22A38, symSize: 0x324 }
-  - { offset: 0x126EB9, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawsUnified]', symObjAddr: 0x30D3, symBinAddr: 0x22D5C, symSize: 0xA }
-  - { offset: 0x126EEE, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle setDrawsUnified:]', symObjAddr: 0x30DD, symBinAddr: 0x22D66, symSize: 0x9 }
-  - { offset: 0x126F2B, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawsRight]', symObjAddr: 0x30E6, symBinAddr: 0x22D6F, symSize: 0xA }
-  - { offset: 0x126F60, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle setDrawsRight:]', symObjAddr: 0x30F0, symBinAddr: 0x22D79, symSize: 0x9 }
-  - { offset: 0x126F9D, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle .cxx_destruct]', symObjAddr: 0x30F9, symBinAddr: 0x22D82, symSize: 0x5F }
-  - { offset: 0x1278B6, size: 0x8, addend: 0x0, symName: '+[MMAquaTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x22DE1, symSize: 0xD }
-  - { offset: 0x127AB5, size: 0x8, addend: 0x0, symName: '+[MMAquaTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x22DE1, symSize: 0xD }
-  - { offset: 0x127AE8, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle name]', symObjAddr: 0xD, symBinAddr: 0x22DEE, symSize: 0x2B }
-  - { offset: 0x127B40, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle init]', symObjAddr: 0x38, symBinAddr: 0x22E19, symSize: 0x4C }
-  - { offset: 0x127B8B, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle leftMarginForTabBarView:]', symObjAddr: 0x84, symBinAddr: 0x22E65, symSize: 0x9 }
-  - { offset: 0x127BCA, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle rightMarginForTabBarView:]', symObjAddr: 0x8D, symBinAddr: 0x22E6E, symSize: 0x9 }
-  - { offset: 0x127C09, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle topMarginForTabBarView:]', symObjAddr: 0x96, symBinAddr: 0x22E77, symSize: 0x9 }
-  - { offset: 0x127C48, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle closeButtonImageOfType:forTabCell:]', symObjAddr: 0x9F, symBinAddr: 0x22E80, symSize: 0x32 }
-  - { offset: 0x127D00, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle drawBezelOfTabBarView:inRect:]', symObjAddr: 0xD1, symBinAddr: 0x22EB2, symSize: 0xDC }
-  - { offset: 0x127DE5, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle drawBezelOfTabCell:withFrame:inView:]', symObjAddr: 0x1AD, symBinAddr: 0x22F8E, symSize: 0x304 }
-  - { offset: 0x128231, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle drawBezelOfOverflowButton:ofTabBarView:inRect:]', symObjAddr: 0x4B1, symBinAddr: 0x23292, symSize: 0x328 }
-  - { offset: 0x1285D4, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle _loadImages]', symObjAddr: 0x7D9, symBinAddr: 0x235BA, symSize: 0x376 }
-  - { offset: 0x12889F, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle .cxx_destruct]', symObjAddr: 0xB4F, symBinAddr: 0x23930, symSize: 0x96 }
-  - { offset: 0x12919F, size: 0x8, addend: 0x0, symName: '-[MMMojaveTabStyle(Assets) colorForPart:ofTabBarView:]', symObjAddr: 0x0, symBinAddr: 0x239D0, symSize: 0x12 }
-  - { offset: 0x1291AD, size: 0x8, addend: 0x0, symName: '-[MMMojaveTabStyle(Assets) assets]', symObjAddr: 0x41C, symBinAddr: 0x23DEC, symSize: 0x59CC }
-  - { offset: 0x1291D7, size: 0x8, addend: 0x0, symName: _assets.assets, symObjAddr: 0x126D8, symBinAddr: 0x52420, symSize: 0x0 }
-  - { offset: 0x12CB7D, size: 0x8, addend: 0x0, symName: '-[MMMojaveTabStyle(Assets) colorForPart:ofTabBarView:]', symObjAddr: 0x0, symBinAddr: 0x239D0, symSize: 0x12 }
-  - { offset: 0x12CBF3, size: 0x8, addend: 0x0, symName: '-[MMMojaveTabStyle(Assets) assetForPart:ofTabBarView:]', symObjAddr: 0x12, symBinAddr: 0x239E2, symSize: 0x40A }
-  - { offset: 0x12CF58, size: 0x8, addend: 0x0, symName: '-[MMMojaveTabStyle(Assets) closeTabImageWithIconColor:backgroundColor:]', symObjAddr: 0x5DE8, symBinAddr: 0x297B8, symSize: 0xD7 }
-  - { offset: 0x12D0CB, size: 0x8, addend: 0x0, symName: '___71-[MMMojaveTabStyle(Assets) closeTabImageWithIconColor:backgroundColor:]_block_invoke', symObjAddr: 0x5EBF, symBinAddr: 0x2988F, symSize: 0x195 }
-  - { offset: 0x12D30B, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x6054, symBinAddr: 0x29A24, symSize: 0x25 }
-  - { offset: 0x12D34C, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x6079, symBinAddr: 0x29A49, symSize: 0x25 }
-  - { offset: 0x12D383, size: 0x8, addend: 0x0, symName: '-[MMMojaveTabStyle(Assets) closeDirtyTabImageWithIconColor:backgroundColor:]', symObjAddr: 0x609E, symBinAddr: 0x29A6E, symSize: 0xD7 }
-  - { offset: 0x12D4D1, size: 0x8, addend: 0x0, symName: '___76-[MMMojaveTabStyle(Assets) closeDirtyTabImageWithIconColor:backgroundColor:]_block_invoke', symObjAddr: 0x6175, symBinAddr: 0x29B45, symSize: 0x1DF }
-  - { offset: 0x12D747, size: 0x8, addend: 0x0, symName: '-[MMMojaveTabStyle(Assets) addTabImageWithIconColor:]', symObjAddr: 0x6354, symBinAddr: 0x29D24, symSize: 0xBA }
-  - { offset: 0x12D7F2, size: 0x8, addend: 0x0, symName: '___53-[MMMojaveTabStyle(Assets) addTabImageWithIconColor:]_block_invoke', symObjAddr: 0x640E, symBinAddr: 0x29DDE, symSize: 0x14E }
-  - { offset: 0x12DA62, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x655C, symBinAddr: 0x29F2C, symSize: 0xF }
-  - { offset: 0x12E543, size: 0x8, addend: 0x0, symName: '+[MMCardTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x29F3B, symSize: 0xD }
-  - { offset: 0x12E58D, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle attributedStringValueForTabCell:]', symObjAddr: 0x40F, symBinAddr: 0x2A34A, symSize: 0x2BF }
-  - { offset: 0x12E5B7, size: 0x8, addend: 0x0, symName: '_attributedStringValueForTabCell:.TruncatingTailParagraphStyle', symObjAddr: 0xA900, symBinAddr: 0x52428, symSize: 0x0 }
-  - { offset: 0x12E9DE, size: 0x8, addend: 0x0, symName: '+[MMCardTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x29F3B, symSize: 0xD }
-  - { offset: 0x12EA11, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle name]', symObjAddr: 0xD, symBinAddr: 0x29F48, symSize: 0x2B }
-  - { offset: 0x12EA69, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle init]', symObjAddr: 0x38, symBinAddr: 0x29F73, symSize: 0x215 }
-  - { offset: 0x12EBF0, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle leftMarginForTabBarView:]', symObjAddr: 0x24D, symBinAddr: 0x2A188, symSize: 0x2D }
-  - { offset: 0x12EC4C, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle rightMarginForTabBarView:]', symObjAddr: 0x27A, symBinAddr: 0x2A1B5, symSize: 0x2D }
-  - { offset: 0x12ECA8, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle topMarginForTabBarView:]', symObjAddr: 0x2A7, symBinAddr: 0x2A1E2, symSize: 0x28 }
-  - { offset: 0x12ED00, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle heightOfTabBarButtonsForTabBarView:]', symObjAddr: 0x2CF, symBinAddr: 0x2A20A, symSize: 0x23 }
-  - { offset: 0x12ED64, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle supportsOrientation:forTabBarView:]', symObjAddr: 0x2F2, symBinAddr: 0x2A22D, symSize: 0xE }
-  - { offset: 0x12EDB1, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle draggingRectForTabButton:ofTabBarView:]', symObjAddr: 0x300, symBinAddr: 0x2A23B, symSize: 0x50 }
-  - { offset: 0x12EE10, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle closeButtonImageOfType:forTabCell:]', symObjAddr: 0x350, symBinAddr: 0x2A28B, symSize: 0x32 }
-  - { offset: 0x12EE77, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle overflowButtonRectForTabBarView:]', symObjAddr: 0x382, symBinAddr: 0x2A2BD, symSize: 0x8D }
-  - { offset: 0x12EF29, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle lineColor]', symObjAddr: 0x6CE, symBinAddr: 0x2A609, symSize: 0x85 }
-  - { offset: 0x12EF94, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle gradientTopColorActive:highlighted:]', symObjAddr: 0x753, symBinAddr: 0x2A68E, symSize: 0x1F1 }
-  - { offset: 0x12F101, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle gradientBottomColorActive:highlighted:]', symObjAddr: 0x944, symBinAddr: 0x2A87F, symSize: 0x13B }
-  - { offset: 0x12F212, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle drawBezelOfTabBarView:inRect:]', symObjAddr: 0xA7F, symBinAddr: 0x2A9BA, symSize: 0x1E6 }
-  - { offset: 0x12F40D, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle drawBezelOfTabCell:withFrame:inView:]', symObjAddr: 0xC65, symBinAddr: 0x2ABA0, symSize: 0x114 }
-  - { offset: 0x12F58F, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle drawBezelOfOverflowButton:ofTabBarView:inRect:]', symObjAddr: 0xD79, symBinAddr: 0x2ACB4, symSize: 0x12E }
-  - { offset: 0x12F706, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle drawBezelInRect:withCapMask:usingStatesOfAttachedButton:ofTabBarView:]', symObjAddr: 0xEA7, symBinAddr: 0x2ADE2, symSize: 0x12 }
-  - { offset: 0x12F7D6, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle _drawBezelInRect:withCapMask:usingStatesOfAttachedButton:ofTabBarView:]', symObjAddr: 0xEB9, symBinAddr: 0x2ADF4, symSize: 0x37A }
-  - { offset: 0x12FBFF, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle horizontalInset]', symObjAddr: 0x1233, symBinAddr: 0x2B16E, symSize: 0xB }
-  - { offset: 0x12FC34, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle setHorizontalInset:]', symObjAddr: 0x123E, symBinAddr: 0x2B179, symSize: 0xB }
-  - { offset: 0x12FC71, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle topMargin]', symObjAddr: 0x1249, symBinAddr: 0x2B184, symSize: 0xB }
-  - { offset: 0x12FCA6, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle setTopMargin:]', symObjAddr: 0x1254, symBinAddr: 0x2B18F, symSize: 0xB }
-  - { offset: 0x12FCE3, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle .cxx_destruct]', symObjAddr: 0x125F, symBinAddr: 0x2B19A, symSize: 0x54 }
-  - { offset: 0x130603, size: 0x8, addend: 0x0, symName: '+[MMLiveChatTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x2B1EE, symSize: 0xD }
-  - { offset: 0x130611, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle attributedStringValueForTabCell:]', symObjAddr: 0x13EC, symBinAddr: 0x2C5DA, symSize: 0x169 }
-  - { offset: 0x13063D, size: 0x8, addend: 0x0, symName: '_attributedStringValueForTabCell:.TruncatingTailParagraphStyle', symObjAddr: 0xD9D8, symBinAddr: 0x52430, symSize: 0x0 }
-  - { offset: 0x13098F, size: 0x8, addend: 0x0, symName: '+[MMLiveChatTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x2B1EE, symSize: 0xD }
-  - { offset: 0x1309C2, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle name]', symObjAddr: 0xD, symBinAddr: 0x2B1FB, symSize: 0x2B }
-  - { offset: 0x130A1A, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle init]', symObjAddr: 0x38, symBinAddr: 0x2B226, symSize: 0x379 }
-  - { offset: 0x130C8B, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle leftMarginForTabBarView:]', symObjAddr: 0x3B1, symBinAddr: 0x2B59F, symSize: 0x2D }
-  - { offset: 0x130CE7, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle rightMarginForTabBarView:]', symObjAddr: 0x3DE, symBinAddr: 0x2B5CC, symSize: 0x2D }
-  - { offset: 0x130D43, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle topMarginForTabBarView:]', symObjAddr: 0x40B, symBinAddr: 0x2B5F9, symSize: 0x19 }
-  - { offset: 0x130D9B, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle supportsOrientation:forTabBarView:]', symObjAddr: 0x424, symBinAddr: 0x2B612, symSize: 0xE }
-  - { offset: 0x130DE8, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle draggingRectForTabButton:ofTabBarView:]', symObjAddr: 0x432, symBinAddr: 0x2B620, symSize: 0x50 }
-  - { offset: 0x130E47, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle closeButtonImageOfType:forTabCell:]', symObjAddr: 0x482, symBinAddr: 0x2B670, symSize: 0x32 }
-  - { offset: 0x130EF8, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle iconRectForBounds:ofTabCell:]', symObjAddr: 0x4B4, symBinAddr: 0x2B6A2, symSize: 0x241 }
-  - { offset: 0x131101, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle titleRectForBounds:ofTabCell:]', symObjAddr: 0x6F5, symBinAddr: 0x2B8E3, symSize: 0x4DF }
-  - { offset: 0x13135E, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle objectCounterRectForBounds:ofTabCell:]', symObjAddr: 0xBD4, symBinAddr: 0x2BDC2, symSize: 0x2A2 }
-  - { offset: 0x1314C2, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle indicatorRectForBounds:ofTabCell:]', symObjAddr: 0xE76, symBinAddr: 0x2C064, symSize: 0x1D2 }
-  - { offset: 0x13164B, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle closeButtonRectForBounds:ofTabCell:]', symObjAddr: 0x1048, symBinAddr: 0x2C236, symSize: 0x17C }
-  - { offset: 0x1317EF, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle largeImageRectForBounds:ofTabCell:]', symObjAddr: 0x11C4, symBinAddr: 0x2C3B2, symSize: 0x19E }
-  - { offset: 0x131959, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle attributedObjectCountStringValueForTabCell:]', symObjAddr: 0x1362, symBinAddr: 0x2C550, symSize: 0x8A }
-  - { offset: 0x131A16, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle drawBezelOfTabBarView:inRect:]', symObjAddr: 0x1555, symBinAddr: 0x2C743, symSize: 0x21A }
-  - { offset: 0x131BFE, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle drawBezelOfTabCell:withFrame:inView:]', symObjAddr: 0x176F, symBinAddr: 0x2C95D, symSize: 0x4EE }
-  - { offset: 0x1320B7, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle drawBezelOfOverflowButton:ofTabBarView:inRect:]', symObjAddr: 0x1C5D, symBinAddr: 0x2CE4B, symSize: 0x284 }
-  - { offset: 0x13236A, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle drawBezelInRect:withCapMask:usingStatesOfAttachedButton:ofTabBarView:]', symObjAddr: 0x1EE1, symBinAddr: 0x2D0CF, symSize: 0x12 }
-  - { offset: 0x132406, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle _drawBezelInRect:withCapMask:usingStatesOfAttachedButton:ofTabBarView:]', symObjAddr: 0x1EF3, symBinAddr: 0x2D0E1, symSize: 0x286 }
-  - { offset: 0x132701, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle leftMarginForTabBarView]', symObjAddr: 0x2179, symBinAddr: 0x2D367, symSize: 0xB }
-  - { offset: 0x132736, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle setLeftMarginForTabBarView:]', symObjAddr: 0x2184, symBinAddr: 0x2D372, symSize: 0xB }
-  - { offset: 0x132773, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle .cxx_destruct]', symObjAddr: 0x218F, symBinAddr: 0x2D37D, symSize: 0x5F }
-  - { offset: 0x13309B, size: 0x8, addend: 0x0, symName: '+[MMMetalTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x2D3DC, symSize: 0xD }
-  - { offset: 0x133105, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle attributedStringValueForTabCell:]', symObjAddr: 0x7A3, symBinAddr: 0x2DB7F, symSize: 0x313 }
-  - { offset: 0x13312F, size: 0x8, addend: 0x0, symName: '_attributedStringValueForTabCell:.TruncatingTailParagraphStyle', symObjAddr: 0xBCD0, symBinAddr: 0x52438, symSize: 0x0 }
-  - { offset: 0x1335AF, size: 0x8, addend: 0x0, symName: '+[MMMetalTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x2D3DC, symSize: 0xD }
-  - { offset: 0x1335E2, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle name]', symObjAddr: 0xD, symBinAddr: 0x2D3E9, symSize: 0x2B }
-  - { offset: 0x13363A, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle init]', symObjAddr: 0x38, symBinAddr: 0x2D414, symSize: 0x36B }
-  - { offset: 0x1338AB, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle leftMarginForTabBarView:]', symObjAddr: 0x3A3, symBinAddr: 0x2D77F, symSize: 0x28 }
-  - { offset: 0x133903, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle rightMarginForTabBarView:]', symObjAddr: 0x3CB, symBinAddr: 0x2D7A7, symSize: 0x28 }
-  - { offset: 0x13395B, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle topMarginForTabBarView:]', symObjAddr: 0x3F3, symBinAddr: 0x2D7CF, symSize: 0x26 }
-  - { offset: 0x1339DA, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle updateAddButton:ofTabBarView:]', symObjAddr: 0x419, symBinAddr: 0x2D7F5, symSize: 0x1C1 }
-  - { offset: 0x133B95, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle draggingRectForTabButton:ofTabBarView:]', symObjAddr: 0x5DA, symBinAddr: 0x2D9B6, symSize: 0x10D }
-  - { offset: 0x133C81, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle closeButtonImageOfType:forTabCell:]', symObjAddr: 0x6E7, symBinAddr: 0x2DAC3, symSize: 0x32 }
-  - { offset: 0x133CE8, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle attributedObjectCountStringValueForTabCell:]', symObjAddr: 0x719, symBinAddr: 0x2DAF5, symSize: 0x8A }
-  - { offset: 0x133D88, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle drawingRectForBounds:ofTabCell:]', symObjAddr: 0xAB6, symBinAddr: 0x2DE92, symSize: 0x111 }
-  - { offset: 0x133EB2, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle drawBezelOfTabBarView:inRect:]', symObjAddr: 0xBC7, symBinAddr: 0x2DFA3, symSize: 0x314 }
-  - { offset: 0x134102, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle drawBezelOfTabCell:withFrame:inView:]', symObjAddr: 0xEDB, symBinAddr: 0x2E2B7, symSize: 0x240 }
-  - { offset: 0x1343A5, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle drawBezelOfOverflowButton:ofTabBarView:inRect:]', symObjAddr: 0x111B, symBinAddr: 0x2E4F7, symSize: 0x323 }
-  - { offset: 0x134765, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle _shouldDrawHorizontalTopBorderLineInView:]', symObjAddr: 0x143E, symBinAddr: 0x2E81A, symSize: 0xAA }
-  - { offset: 0x13488A, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle _drawBezelInRect:withCapMask:usingStatesOfAttachedButton:ofTabBarView:]', symObjAddr: 0x14E8, symBinAddr: 0x2E8C4, symSize: 0x67E }
-  - { offset: 0x134F21, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle .cxx_destruct]', symObjAddr: 0x1B66, symBinAddr: 0x2EF42, symSize: 0x5F }
-  - { offset: 0x135850, size: 0x8, addend: 0x0, symName: '+[MMUnifiedTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x2EFA1, symSize: 0xD }
-  - { offset: 0x135A52, size: 0x8, addend: 0x0, symName: '+[MMUnifiedTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x2EFA1, symSize: 0xD }
-  - { offset: 0x135A85, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle name]', symObjAddr: 0xD, symBinAddr: 0x2EFAE, symSize: 0x2B }
-  - { offset: 0x135ADD, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle init]', symObjAddr: 0x38, symBinAddr: 0x2EFD9, symSize: 0x20F }
-  - { offset: 0x135C64, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle leftMarginForTabBarView:]', symObjAddr: 0x247, symBinAddr: 0x2F1E8, symSize: 0x2D }
-  - { offset: 0x135CC0, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle rightMarginForTabBarView:]', symObjAddr: 0x274, symBinAddr: 0x2F215, symSize: 0x2D }
-  - { offset: 0x135D1C, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle topMarginForTabBarView:]', symObjAddr: 0x2A1, symBinAddr: 0x2F242, symSize: 0x19 }
-  - { offset: 0x135D74, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle supportsOrientation:forTabBarView:]', symObjAddr: 0x2BA, symBinAddr: 0x2F25B, symSize: 0xE }
-  - { offset: 0x135DC1, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle draggingRectForTabButton:ofTabBarView:]', symObjAddr: 0x2C8, symBinAddr: 0x2F269, symSize: 0x50 }
-  - { offset: 0x135E20, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle closeButtonImageOfType:forTabCell:]', symObjAddr: 0x318, symBinAddr: 0x2F2B9, symSize: 0x32 }
-  - { offset: 0x135EBB, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle drawBezelOfTabBarView:inRect:]', symObjAddr: 0x34A, symBinAddr: 0x2F2EB, symSize: 0x2AB }
-  - { offset: 0x136158, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle drawBezelOfButton:atIndex:inButtons:indexOfSelectedButton:tabBarView:inRect:]', symObjAddr: 0x5F5, symBinAddr: 0x2F596, symSize: 0x33A }
-  - { offset: 0x136538, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle drawBezelOfTabCell:withFrame:inView:]', symObjAddr: 0x92F, symBinAddr: 0x2F8D0, symSize: 0x28E }
-  - { offset: 0x1367EC, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle drawBezelOfOverflowButton:ofTabBarView:inRect:]', symObjAddr: 0xBBD, symBinAddr: 0x2FB5E, symSize: 0x3D0 }
-  - { offset: 0x136B96, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle _drawCardBezelInRect:withCapMask:usingStatesOfAttachedButton:ofTabBarView:]', symObjAddr: 0xF8D, symBinAddr: 0x2FF2E, symSize: 0x3B8 }
-  - { offset: 0x136FD6, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle _drawBoxBezelInRect:withCapMask:usingStatesOfAttachedButton:ofTabBarView:]', symObjAddr: 0x1345, symBinAddr: 0x302E6, symSize: 0xC8 }
-  - { offset: 0x1370DE, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle leftMarginForTabBarView]', symObjAddr: 0x140D, symBinAddr: 0x303AE, symSize: 0xB }
-  - { offset: 0x137113, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle setLeftMarginForTabBarView:]', symObjAddr: 0x1418, symBinAddr: 0x303B9, symSize: 0xB }
-  - { offset: 0x137150, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle .cxx_destruct]', symObjAddr: 0x1423, symBinAddr: 0x303C4, symSize: 0x54 }
-  - { offset: 0x137A76, size: 0x8, addend: 0x0, symName: '-[NSString(MMTabBarViewExtensions) stringByTruncatingToLength:]', symObjAddr: 0x0, symBinAddr: 0x30418, symSize: 0x97 }
-  - { offset: 0x137A84, size: 0x8, addend: 0x0, symName: '-[NSString(MMTabBarViewExtensions) stringByTruncatingToLength:]', symObjAddr: 0x0, symBinAddr: 0x30418, symSize: 0x97 }
-  - { offset: 0x137B89, size: 0x8, addend: 0x0, symName: '+[MMSafariTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x304B0, symSize: 0xD }
-  - { offset: 0x137C22, size: 0x8, addend: 0x0, symName: __staticTabClose_DirtyImage, symObjAddr: 0x19F7, symBinAddr: 0x31EA7, symSize: 0x8C }
-  - { offset: 0x137C48, size: 0x8, addend: 0x0, symName: __staticTabClose_DirtyImage.image, symObjAddr: 0xCB88, symBinAddr: 0x524A0, symSize: 0x0 }
-  - { offset: 0x137C9F, size: 0x8, addend: 0x0, symName: __staticTabClose_Dirty_RolloverImage, symObjAddr: 0x1A83, symBinAddr: 0x31F33, symSize: 0x8C }
-  - { offset: 0x137CC5, size: 0x8, addend: 0x0, symName: __staticTabClose_Dirty_RolloverImage.image, symObjAddr: 0xCB90, symBinAddr: 0x524A8, symSize: 0x0 }
-  - { offset: 0x137D1C, size: 0x8, addend: 0x0, symName: __staticTabClose_Dirty_PressedImage, symObjAddr: 0x1B0F, symBinAddr: 0x31FBF, symSize: 0x8C }
-  - { offset: 0x137D42, size: 0x8, addend: 0x0, symName: __staticTabClose_Dirty_PressedImage.image, symObjAddr: 0xCB98, symBinAddr: 0x524B0, symSize: 0x0 }
-  - { offset: 0x137D99, size: 0x8, addend: 0x0, symName: __staticSafariAWITLeftCapImage, symObjAddr: 0x1B9B, symBinAddr: 0x3204B, symSize: 0x8C }
-  - { offset: 0x137DBF, size: 0x8, addend: 0x0, symName: __staticSafariAWITLeftCapImage.image, symObjAddr: 0xCBE0, symBinAddr: 0x524F8, symSize: 0x0 }
-  - { offset: 0x137E16, size: 0x8, addend: 0x0, symName: __staticSafariAWITRightCapImage, symObjAddr: 0x1C27, symBinAddr: 0x320D7, symSize: 0x8C }
-  - { offset: 0x137E3C, size: 0x8, addend: 0x0, symName: __staticSafariAWITRightCapImage.image, symObjAddr: 0xCBE8, symBinAddr: 0x52500, symSize: 0x0 }
-  - { offset: 0x137E93, size: 0x8, addend: 0x0, symName: __staticSafariAWATLeftCapImage, symObjAddr: 0x1CB3, symBinAddr: 0x32163, symSize: 0x8C }
-  - { offset: 0x137EB9, size: 0x8, addend: 0x0, symName: __staticSafariAWATLeftCapImage.image, symObjAddr: 0xCBF0, symBinAddr: 0x52508, symSize: 0x0 }
-  - { offset: 0x137F10, size: 0x8, addend: 0x0, symName: __staticSafariAWATFillImage, symObjAddr: 0x1D3F, symBinAddr: 0x321EF, symSize: 0x8C }
-  - { offset: 0x137F36, size: 0x8, addend: 0x0, symName: __staticSafariAWATFillImage.image, symObjAddr: 0xCBF8, symBinAddr: 0x52510, symSize: 0x0 }
-  - { offset: 0x137F8D, size: 0x8, addend: 0x0, symName: __staticSafariAWATRightCapImage, symObjAddr: 0x1DCB, symBinAddr: 0x3227B, symSize: 0x8C }
-  - { offset: 0x137FB3, size: 0x8, addend: 0x0, symName: __staticSafariAWATRightCapImage.image, symObjAddr: 0xCC00, symBinAddr: 0x52518, symSize: 0x0 }
-  - { offset: 0x13800A, size: 0x8, addend: 0x0, symName: __staticSafariIWATLeftCapImage, symObjAddr: 0x1E57, symBinAddr: 0x32307, symSize: 0x8C }
-  - { offset: 0x138030, size: 0x8, addend: 0x0, symName: __staticSafariIWATLeftCapImage.image, symObjAddr: 0xCC08, symBinAddr: 0x52520, symSize: 0x0 }
-  - { offset: 0x138087, size: 0x8, addend: 0x0, symName: __staticSafariIWATFillImage, symObjAddr: 0x1EE3, symBinAddr: 0x32393, symSize: 0x8C }
-  - { offset: 0x1380AD, size: 0x8, addend: 0x0, symName: __staticSafariIWATFillImage.image, symObjAddr: 0xCC10, symBinAddr: 0x52528, symSize: 0x0 }
-  - { offset: 0x138104, size: 0x8, addend: 0x0, symName: __staticSafariIWATRightCapImage, symObjAddr: 0x1F6F, symBinAddr: 0x3241F, symSize: 0x8C }
-  - { offset: 0x13812A, size: 0x8, addend: 0x0, symName: __staticSafariIWATRightCapImage.image, symObjAddr: 0xCC18, symBinAddr: 0x52530, symSize: 0x0 }
-  - { offset: 0x138181, size: 0x8, addend: 0x0, symName: __staticSafariIWITRightCapImage, symObjAddr: 0x1FFB, symBinAddr: 0x324AB, symSize: 0x8C }
-  - { offset: 0x1381A7, size: 0x8, addend: 0x0, symName: __staticSafariIWITRightCapImage.image, symObjAddr: 0xCC20, symBinAddr: 0x52538, symSize: 0x0 }
-  - { offset: 0x1381FE, size: 0x8, addend: 0x0, symName: __staticSafariIWITLeftCapImage, symObjAddr: 0x2087, symBinAddr: 0x32537, symSize: 0x99 }
-  - { offset: 0x138224, size: 0x8, addend: 0x0, symName: __staticSafariIWITLeftCapImage.image, symObjAddr: 0xCC28, symBinAddr: 0x52540, symSize: 0x0 }
-  - { offset: 0x138B3D, size: 0x8, addend: 0x0, symName: '+[MMSafariTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x304B0, symSize: 0xD }
-  - { offset: 0x138B70, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle name]', symObjAddr: 0xD, symBinAddr: 0x304BD, symSize: 0x2B }
-  - { offset: 0x138BC8, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle init]', symObjAddr: 0x38, symBinAddr: 0x304E8, symSize: 0x1B7 }
-  - { offset: 0x138CE9, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle leftMarginForTabBarView:]', symObjAddr: 0x1EF, symBinAddr: 0x3069F, symSize: 0xE }
-  - { offset: 0x138D28, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle rightMarginForTabBarView:]', symObjAddr: 0x1FD, symBinAddr: 0x306AD, symSize: 0xE }
-  - { offset: 0x138D67, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle supportsOrientation:forTabBarView:]', symObjAddr: 0x20B, symBinAddr: 0x306BB, symSize: 0xE }
-  - { offset: 0x138DB4, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle addTabButtonSizeForTabBarView:]', symObjAddr: 0x219, symBinAddr: 0x306C9, symSize: 0x40 }
-  - { offset: 0x138DF7, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle addTabButtonRectForTabBarView:]', symObjAddr: 0x259, symBinAddr: 0x30709, symSize: 0x6E }
-  - { offset: 0x138E71, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle updateAddButton:ofTabBarView:]', symObjAddr: 0x2C7, symBinAddr: 0x30777, symSize: 0x1C1 }
-  - { offset: 0x13902C, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle draggingRectForTabButton:ofTabBarView:]', symObjAddr: 0x488, symBinAddr: 0x30938, symSize: 0x10D }
-  - { offset: 0x1391A4, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle closeButtonImageOfType:forTabCell:]', symObjAddr: 0x595, symBinAddr: 0x30A45, symSize: 0x697 }
-  - { offset: 0x13966E, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle drawingRectForBounds:ofTabCell:]', symObjAddr: 0xC2C, symBinAddr: 0x310DC, symSize: 0xC1 }
-  - { offset: 0x139733, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle closeButtonRectForBounds:ofTabCell:]', symObjAddr: 0xCED, symBinAddr: 0x3119D, symSize: 0xBF }
-  - { offset: 0x1397E3, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle overflowButtonRectForTabBarView:]', symObjAddr: 0xDAC, symBinAddr: 0x3125C, symSize: 0xAB }
-  - { offset: 0x139887, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle drawBezelOfTabBarView:inRect:]', symObjAddr: 0xE57, symBinAddr: 0x31307, symSize: 0x203 }
-  - { offset: 0x139A9A, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle drawBezelOfButton:atIndex:inButtons:indexOfSelectedButton:tabBarView:inRect:]', symObjAddr: 0x105A, symBinAddr: 0x3150A, symSize: 0x529 }
-  - { offset: 0x139F4D, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle drawBezelOfOverflowButton:ofTabBarView:inRect:]', symObjAddr: 0x1583, symBinAddr: 0x31A33, symSize: 0x1BE }
-  - { offset: 0x13A188, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle drawBezelOfTabCell:withFrame:inView:]', symObjAddr: 0x1741, symBinAddr: 0x31BF1, symSize: 0x2A6 }
-  - { offset: 0x13A47A, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle .cxx_destruct]', symObjAddr: 0x19E7, symBinAddr: 0x31E97, symSize: 0x10 }
-  - { offset: 0x13A5CF, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell initTextCell:pullsDown:]', symObjAddr: 0x0, symBinAddr: 0x325D0, symSize: 0x8F }
-  - { offset: 0x13A732, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell initTextCell:pullsDown:]', symObjAddr: 0x0, symBinAddr: 0x325D0, symSize: 0x8F }
-  - { offset: 0x13A7AD, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell image]', symObjAddr: 0x8F, symBinAddr: 0x3265F, symSize: 0x28 }
-  - { offset: 0x13A7F8, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell setImage:]', symObjAddr: 0xB7, symBinAddr: 0x32687, symSize: 0x4F }
-  - { offset: 0x13A868, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell drawWithFrame:inView:]', symObjAddr: 0x106, symBinAddr: 0x326D6, symSize: 0x7F }
-  - { offset: 0x13A918, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell drawInteriorWithFrame:inView:]', symObjAddr: 0x185, symBinAddr: 0x32755, symSize: 0x12 }
-  - { offset: 0x13A983, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell drawImageWithFrame:inView:]', symObjAddr: 0x197, symBinAddr: 0x32767, symSize: 0x13A }
-  - { offset: 0x13AAD8, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell drawImage:withFrame:inView:]', symObjAddr: 0x2D1, symBinAddr: 0x328A1, symSize: 0x1A }
-  - { offset: 0x13AB59, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell drawImage:withFrame:inView:alpha:]', symObjAddr: 0x2EB, symBinAddr: 0x328BB, symSize: 0xB4 }
-  - { offset: 0x13AC2F, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell drawBezelWithFrame:inView:]', symObjAddr: 0x39F, symBinAddr: 0x3296F, symSize: 0x20 }
-  - { offset: 0x13AC8B, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell copyWithZone:]', symObjAddr: 0x3BF, symBinAddr: 0x3298F, symSize: 0xA1 }
-  - { offset: 0x13AD29, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell encodeWithCoder:]', symObjAddr: 0x460, symBinAddr: 0x32A30, symSize: 0xAD }
-  - { offset: 0x13ADDF, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell initWithCoder:]', symObjAddr: 0x50D, symBinAddr: 0x32ADD, symSize: 0xE1 }
-  - { offset: 0x13AEF7, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell _imageRectForBounds:forImage:]', symObjAddr: 0x5EE, symBinAddr: 0x32BBE, symSize: 0x112 }
-  - { offset: 0x13B07F, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell bezelDrawingBlock]', symObjAddr: 0x700, symBinAddr: 0x32CD0, symSize: 0x16 }
-  - { offset: 0x13B0B6, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell setBezelDrawingBlock:]', symObjAddr: 0x716, symBinAddr: 0x32CE6, symSize: 0x11 }
-  - { offset: 0x13B0F5, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell secondImage]', symObjAddr: 0x727, symBinAddr: 0x32CF7, symSize: 0x16 }
-  - { offset: 0x13B12C, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell setSecondImage:]', symObjAddr: 0x73D, symBinAddr: 0x32D0D, symSize: 0x11 }
-  - { offset: 0x13B16B, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell secondImageAlpha]', symObjAddr: 0x74E, symBinAddr: 0x32D1E, symSize: 0x12 }
-  - { offset: 0x13B1A0, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell setSecondImageAlpha:]', symObjAddr: 0x760, symBinAddr: 0x32D30, symSize: 0x12 }
-  - { offset: 0x13B1DD, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell .cxx_destruct]', symObjAddr: 0x772, symBinAddr: 0x32D42, symSize: 0x42 }
-  - { offset: 0x13B2BD, size: 0x8, addend: 0x0, symName: '-[NSCell(MMTabBarViewExtensions) mm_scaleImageWithSize:toFitInSize:scalingType:]', symObjAddr: 0x0, symBinAddr: 0x32D84, symSize: 0xEB }
-  - { offset: 0x13B332, size: 0x8, addend: 0x0, symName: '-[NSCell(MMTabBarViewExtensions) mm_scaleImageWithSize:toFitInSize:scalingType:]', symObjAddr: 0x0, symBinAddr: 0x32D84, symSize: 0xEB }
-  - { offset: 0x13B460, size: 0x8, addend: 0x0, symName: '-[NSAffineTransform(MMTabBarViewExtensions) mm_flipVertical:]', symObjAddr: 0x0, symBinAddr: 0x32E6F, symSize: 0x99 }
-  - { offset: 0x13B46E, size: 0x8, addend: 0x0, symName: '-[NSAffineTransform(MMTabBarViewExtensions) mm_flipVertical:]', symObjAddr: 0x0, symBinAddr: 0x32E6F, symSize: 0x99 }
-  - { offset: 0x13B53E, size: 0x8, addend: 0x0, symName: '+[NSBezierPath(MMTabBarViewExtensions) bezierPathWithCardInRect:radius:capMask:]', symObjAddr: 0x0, symBinAddr: 0x32F08, symSize: 0xF1 }
-  - { offset: 0x13B589, size: 0x8, addend: 0x0, symName: '+[NSBezierPath(MMTabBarViewExtensions) bezierPathWithCardInRect:radius:capMask:]', symObjAddr: 0x0, symBinAddr: 0x32F08, symSize: 0xF1 }
-  - { offset: 0x13B65F, size: 0x8, addend: 0x0, symName: '+[NSBezierPath(MMTabBarViewExtensions) bezierPathWithRoundedRect:radius:capMask:]', symObjAddr: 0xF1, symBinAddr: 0x32FF9, symSize: 0xF1 }
-  - { offset: 0x13B79D, size: 0x8, addend: 0x0, symName: '+[NSBezierPath(MMTabBarViewExtensions) _bezierPathWithCardInRect:radius:capMask:]', symObjAddr: 0x1E2, symBinAddr: 0x330EA, symSize: 0x1E0 }
-  - { offset: 0x13BA71, size: 0x8, addend: 0x0, symName: '+[NSBezierPath(MMTabBarViewExtensions) _bezierPathWithRoundedRect:radius:capMask:]', symObjAddr: 0x3C2, symBinAddr: 0x332CA, symSize: 0x1F7 }
-  - { offset: 0x13BDFA, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) largeImage]', symObjAddr: 0x0, symBinAddr: 0x334C1, symSize: 0x11 }
-  - { offset: 0x13BE14, size: 0x8, addend: 0x0, symName: _largeImage_key, symObjAddr: 0x3935, symBinAddr: 0x52548, symSize: 0x0 }
-  - { offset: 0x13BE31, size: 0x8, addend: 0x0, symName: _icon_key, symObjAddr: 0x3936, symBinAddr: 0x52549, symSize: 0x0 }
-  - { offset: 0x13BE47, size: 0x8, addend: 0x0, symName: _isProcessing_key, symObjAddr: 0x3937, symBinAddr: 0x5254A, symSize: 0x0 }
-  - { offset: 0x13BE5D, size: 0x8, addend: 0x0, symName: _isEdited_key, symObjAddr: 0x393B, symBinAddr: 0x5254E, symSize: 0x0 }
-  - { offset: 0x13BE73, size: 0x8, addend: 0x0, symName: _hasCloseButton_key, symObjAddr: 0x393C, symBinAddr: 0x5254F, symSize: 0x0 }
-  - { offset: 0x13BE89, size: 0x8, addend: 0x0, symName: _objectCount_key, symObjAddr: 0x3938, symBinAddr: 0x5254B, symSize: 0x0 }
-  - { offset: 0x13BE9F, size: 0x8, addend: 0x0, symName: _objectCountColor_key, symObjAddr: 0x3939, symBinAddr: 0x5254C, symSize: 0x0 }
-  - { offset: 0x13BEB5, size: 0x8, addend: 0x0, symName: _showObjectCount_key, symObjAddr: 0x393A, symBinAddr: 0x5254D, symSize: 0x0 }
-  - { offset: 0x13BEC4, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) largeImage]', symObjAddr: 0x0, symBinAddr: 0x334C1, symSize: 0x11 }
-  - { offset: 0x13BF57, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) setLargeImage:]', symObjAddr: 0x11, symBinAddr: 0x334D2, symSize: 0x16 }
-  - { offset: 0x13BFDB, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) icon]', symObjAddr: 0x27, symBinAddr: 0x334E8, symSize: 0x11 }
-  - { offset: 0x13C027, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) setIcon:]', symObjAddr: 0x38, symBinAddr: 0x334F9, symSize: 0x16 }
-  - { offset: 0x13C08D, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) isProcessing]', symObjAddr: 0x4E, symBinAddr: 0x3350F, symSize: 0x43 }
-  - { offset: 0x13C0F2, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) setIsProcessing:]', symObjAddr: 0x91, symBinAddr: 0x33552, symSize: 0x4D }
-  - { offset: 0x13C17B, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) objectCount]', symObjAddr: 0xDE, symBinAddr: 0x3359F, symSize: 0x42 }
-  - { offset: 0x13C1E0, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) setObjectCount:]', symObjAddr: 0x120, symBinAddr: 0x335E1, symSize: 0x4D }
-  - { offset: 0x13C269, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) objectCountColor]', symObjAddr: 0x16D, symBinAddr: 0x3362E, symSize: 0x11 }
-  - { offset: 0x13C2B5, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) setObjectCountColor:]', symObjAddr: 0x17E, symBinAddr: 0x3363F, symSize: 0x16 }
-  - { offset: 0x13C31B, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) showObjectCount]', symObjAddr: 0x194, symBinAddr: 0x33655, symSize: 0x43 }
-  - { offset: 0x13C380, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) setShowObjectCount:]', symObjAddr: 0x1D7, symBinAddr: 0x33698, symSize: 0x4D }
-  - { offset: 0x13C409, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) isEdited]', symObjAddr: 0x224, symBinAddr: 0x336E5, symSize: 0x43 }
-  - { offset: 0x13C46E, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) setIsEdited:]', symObjAddr: 0x267, symBinAddr: 0x33728, symSize: 0x4D }
-  - { offset: 0x13C4F7, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) hasCloseButton]', symObjAddr: 0x2B4, symBinAddr: 0x33775, symSize: 0x43 }
-  - { offset: 0x13C55C, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) setHasCloseButton:]', symObjAddr: 0x2F7, symBinAddr: 0x337B8, symSize: 0x4D }
+  - { offset: 0x121C77, size: 0x8, addend: 0x0, symName: '+[MMTahoeTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x1EAA0, symSize: 0xD }
+  - { offset: 0x121E74, size: 0x8, addend: 0x0, symName: '+[MMTahoeTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x1EAA0, symSize: 0xD }
+  - { offset: 0x121EA7, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle name]', symObjAddr: 0xD, symBinAddr: 0x1EAAD, symSize: 0x2B }
+  - { offset: 0x121EFF, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle intrinsicContentSizeOfTabBarView:]', symObjAddr: 0x38, symBinAddr: 0x1EAD8, symSize: 0x19 }
+  - { offset: 0x121F3E, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle leftMarginForTabBarView:]', symObjAddr: 0x51, symBinAddr: 0x1EAF1, symSize: 0x28 }
+  - { offset: 0x121F96, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle rightMarginForTabBarView:]', symObjAddr: 0x79, symBinAddr: 0x1EB19, symSize: 0x28 }
+  - { offset: 0x121FEE, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle heightOfTabBarButtonsForTabBarView:]', symObjAddr: 0xA1, symBinAddr: 0x1EB41, symSize: 0xE }
+  - { offset: 0x12202D, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle overflowButtonSizeForTabBarView:]', symObjAddr: 0xAF, symBinAddr: 0x1EB4F, symSize: 0x16 }
+  - { offset: 0x12206C, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle drawingRectForBounds:ofTabCell:]', symObjAddr: 0xC5, symBinAddr: 0x1EB65, symSize: 0x59 }
+  - { offset: 0x122131, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle _leadingSlotRectForBounds:ofTabCell:imageSize:]', symObjAddr: 0x11E, symBinAddr: 0x1EBBE, symSize: 0x10A }
+  - { offset: 0x12222D, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle iconRectForBounds:ofTabCell:]', symObjAddr: 0x228, symBinAddr: 0x1ECC8, symSize: 0x19E }
+  - { offset: 0x1223BF, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle closeButtonRectForBounds:ofTabCell:]', symObjAddr: 0x3C6, symBinAddr: 0x1EE66, symSize: 0xFD }
+  - { offset: 0x12250A, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle titleRectForBounds:ofTabCell:]', symObjAddr: 0x4C3, symBinAddr: 0x1EF63, symSize: 0x394 }
+  - { offset: 0x12273D, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle desiredWidthOfTabCell:]', symObjAddr: 0x857, symBinAddr: 0x1F2F7, symSize: 0x132 }
+  - { offset: 0x12284D, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle drawIconOfTabCell:withFrame:inView:]', symObjAddr: 0x989, symBinAddr: 0x1F429, symSize: 0x94 }
+  - { offset: 0x122937, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle drawCloseButtonOfTabCell:withFrame:inView:]', symObjAddr: 0xA1D, symBinAddr: 0x1F4BD, symSize: 0x239 }
+  - { offset: 0x122B02, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle closeButtonImageOfType:forTabCell:]', symObjAddr: 0xC56, symBinAddr: 0x1F6F6, symSize: 0x90 }
+  - { offset: 0x122BAA, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle attributedStringValueForTabCell:]', symObjAddr: 0xCE6, symBinAddr: 0x1F786, symSize: 0x1A7 }
+  - { offset: 0x122DB0, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle drawBezelOfTabBarView:inRect:]', symObjAddr: 0xE8D, symBinAddr: 0x1F92D, symSize: 0xE8 }
+  - { offset: 0x122EBE, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle drawBezelOfTabCell:withFrame:inView:]', symObjAddr: 0xF75, symBinAddr: 0x1FA15, symSize: 0x82 }
+  - { offset: 0x122F9E, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle drawBezelOfOverflowButton:ofTabBarView:inRect:]', symObjAddr: 0xFF7, symBinAddr: 0x1FA97, symSize: 0xD1 }
+  - { offset: 0x1230B4, size: 0x8, addend: 0x0, symName: '-[MMTahoeTabStyle _drawPillInRect:usingStatesOfAttachedButton:ofTabBarView:]', symObjAddr: 0x10C8, symBinAddr: 0x1FB68, symSize: 0x2D8 }
+  - { offset: 0x123C2F, size: 0x8, addend: 0x0, symName: '-[MMTabPasteboardItem init]', symObjAddr: 0x0, symBinAddr: 0x1FE40, symSize: 0x49 }
+  - { offset: 0x123CAC, size: 0x8, addend: 0x0, symName: '-[MMTabPasteboardItem init]', symObjAddr: 0x0, symBinAddr: 0x1FE40, symSize: 0x49 }
+  - { offset: 0x123CE3, size: 0x8, addend: 0x0, symName: '-[MMTabPasteboardItem sourceIndex]', symObjAddr: 0x49, symBinAddr: 0x1FE89, symSize: 0x11 }
+  - { offset: 0x123D18, size: 0x8, addend: 0x0, symName: '-[MMTabPasteboardItem setSourceIndex:]', symObjAddr: 0x5A, symBinAddr: 0x1FE9A, symSize: 0x11 }
+  - { offset: 0x123DD2, size: 0x8, addend: 0x0, symName: '+[MMAdiumTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x1FEAB, symSize: 0xD }
+  - { offset: 0x124008, size: 0x8, addend: 0x0, symName: '+[MMAdiumTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x1FEAB, symSize: 0xD }
+  - { offset: 0x12403B, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle name]', symObjAddr: 0xD, symBinAddr: 0x1FEB8, symSize: 0x2B }
+  - { offset: 0x124093, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle init]', symObjAddr: 0x38, symBinAddr: 0x1FEE3, symSize: 0x52 }
+  - { offset: 0x1240DE, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle leftMarginForTabBarView:]', symObjAddr: 0x8A, symBinAddr: 0x1FF35, symSize: 0x28 }
+  - { offset: 0x124136, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle rightMarginForTabBarView:]', symObjAddr: 0xB2, symBinAddr: 0x1FF5D, symSize: 0x28 }
+  - { offset: 0x12418E, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle topMarginForTabBarView:]', symObjAddr: 0xDA, symBinAddr: 0x1FF85, symSize: 0x26 }
+  - { offset: 0x1241E6, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle draggingRectForTabButton:ofTabBarView:]', symObjAddr: 0x100, symBinAddr: 0x1FFAB, symSize: 0xB6 }
+  - { offset: 0x1242D2, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle closeButtonImageOfType:forTabCell:]', symObjAddr: 0x1B6, symBinAddr: 0x20061, symSize: 0x32 }
+  - { offset: 0x124339, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle heightOfTabBarButtonsForTabBarView:]', symObjAddr: 0x1E8, symBinAddr: 0x20093, symSize: 0x2A }
+  - { offset: 0x1243A1, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawingRectForBounds:ofTabCell:]', symObjAddr: 0x212, symBinAddr: 0x200BD, symSize: 0x109 }
+  - { offset: 0x1244DE, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle closeButtonRectForBounds:ofTabCell:]', symObjAddr: 0x31B, symBinAddr: 0x201C6, symSize: 0x2B5 }
+  - { offset: 0x1246EE, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle iconRectForBounds:ofTabCell:]', symObjAddr: 0x5D0, symBinAddr: 0x2047B, symSize: 0x241 }
+  - { offset: 0x1248FF, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle titleRectForBounds:ofTabCell:]', symObjAddr: 0x811, symBinAddr: 0x206BC, symSize: 0x6BD }
+  - { offset: 0x124CBE, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle indicatorRectForBounds:ofTabCell:]', symObjAddr: 0xECE, symBinAddr: 0x20D79, symSize: 0x10B }
+  - { offset: 0x124E17, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle objectCounterRectForBounds:ofTabCell:]', symObjAddr: 0xFD9, symBinAddr: 0x20E84, symSize: 0x1FA }
+  - { offset: 0x124F4C, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle largeImageRectForBounds:ofTabCell:]', symObjAddr: 0x11D3, symBinAddr: 0x2107E, symSize: 0x19E }
+  - { offset: 0x1250EA, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawBezelOfTabBarView:inRect:]', symObjAddr: 0x1371, symBinAddr: 0x2121C, symSize: 0x5A3 }
+  - { offset: 0x12564B, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawBezelOfButton:atIndex:inButtons:indexOfSelectedButton:tabBarView:inRect:]', symObjAddr: 0x1914, symBinAddr: 0x217BF, symSize: 0xA1 }
+  - { offset: 0x125756, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawBezelOfTabCell:withFrame:inView:]', symObjAddr: 0x19B5, symBinAddr: 0x21860, symSize: 0x8B }
+  - { offset: 0x125842, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawBezelOfOverflowButton:ofTabBarView:inRect:]', symObjAddr: 0x1A40, symBinAddr: 0x218EB, symSize: 0x331 }
+  - { offset: 0x125C19, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawIconOfTabCell:withFrame:inView:]', symObjAddr: 0x1D71, symBinAddr: 0x21C1C, symSize: 0xFA }
+  - { offset: 0x125D5C, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawObjectCounterOfTabCell:withFrame:inView:]', symObjAddr: 0x1E6B, symBinAddr: 0x21D16, symSize: 0xE2 }
+  - { offset: 0x125EA9, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawCloseButtonOfTabCell:withFrame:inView:]', symObjAddr: 0x1F4D, symBinAddr: 0x21DF8, symSize: 0xEF }
+  - { offset: 0x125FF6, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle _loadImages]', symObjAddr: 0x203C, symBinAddr: 0x21EE7, symSize: 0x21D }
+  - { offset: 0x1261C4, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle _drawBezelInRect:withCapMask:usingStatesOfAttachedButton:ofTabBarView:applyShadow:drawRollovers:]', symObjAddr: 0x2259, symBinAddr: 0x22104, symSize: 0xB56 }
+  - { offset: 0x126D34, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle _drawBezelWithFrame:usingStatesOfAttachedButton:ofTabBarView:applyShadow:drawRollovers:]', symObjAddr: 0x2DAF, symBinAddr: 0x22C5A, symSize: 0x324 }
+  - { offset: 0x12704B, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawsUnified]', symObjAddr: 0x30D3, symBinAddr: 0x22F7E, symSize: 0xA }
+  - { offset: 0x127080, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle setDrawsUnified:]', symObjAddr: 0x30DD, symBinAddr: 0x22F88, symSize: 0x9 }
+  - { offset: 0x1270BD, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle drawsRight]', symObjAddr: 0x30E6, symBinAddr: 0x22F91, symSize: 0xA }
+  - { offset: 0x1270F2, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle setDrawsRight:]', symObjAddr: 0x30F0, symBinAddr: 0x22F9B, symSize: 0x9 }
+  - { offset: 0x12712F, size: 0x8, addend: 0x0, symName: '-[MMAdiumTabStyle .cxx_destruct]', symObjAddr: 0x30F9, symBinAddr: 0x22FA4, symSize: 0x5F }
+  - { offset: 0x127A48, size: 0x8, addend: 0x0, symName: '+[MMAquaTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x23003, symSize: 0xD }
+  - { offset: 0x127C47, size: 0x8, addend: 0x0, symName: '+[MMAquaTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x23003, symSize: 0xD }
+  - { offset: 0x127C7A, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle name]', symObjAddr: 0xD, symBinAddr: 0x23010, symSize: 0x2B }
+  - { offset: 0x127CD2, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle init]', symObjAddr: 0x38, symBinAddr: 0x2303B, symSize: 0x4C }
+  - { offset: 0x127D1D, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle leftMarginForTabBarView:]', symObjAddr: 0x84, symBinAddr: 0x23087, symSize: 0x9 }
+  - { offset: 0x127D5C, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle rightMarginForTabBarView:]', symObjAddr: 0x8D, symBinAddr: 0x23090, symSize: 0x9 }
+  - { offset: 0x127D9B, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle topMarginForTabBarView:]', symObjAddr: 0x96, symBinAddr: 0x23099, symSize: 0x9 }
+  - { offset: 0x127DDA, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle closeButtonImageOfType:forTabCell:]', symObjAddr: 0x9F, symBinAddr: 0x230A2, symSize: 0x32 }
+  - { offset: 0x127E92, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle drawBezelOfTabBarView:inRect:]', symObjAddr: 0xD1, symBinAddr: 0x230D4, symSize: 0xDC }
+  - { offset: 0x127F77, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle drawBezelOfTabCell:withFrame:inView:]', symObjAddr: 0x1AD, symBinAddr: 0x231B0, symSize: 0x304 }
+  - { offset: 0x1283C3, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle drawBezelOfOverflowButton:ofTabBarView:inRect:]', symObjAddr: 0x4B1, symBinAddr: 0x234B4, symSize: 0x328 }
+  - { offset: 0x128766, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle _loadImages]', symObjAddr: 0x7D9, symBinAddr: 0x237DC, symSize: 0x376 }
+  - { offset: 0x128A31, size: 0x8, addend: 0x0, symName: '-[MMAquaTabStyle .cxx_destruct]', symObjAddr: 0xB4F, symBinAddr: 0x23B52, symSize: 0x96 }
+  - { offset: 0x129331, size: 0x8, addend: 0x0, symName: '-[MMMojaveTabStyle(Assets) colorForPart:ofTabBarView:]', symObjAddr: 0x0, symBinAddr: 0x23BF0, symSize: 0x12 }
+  - { offset: 0x12933F, size: 0x8, addend: 0x0, symName: '-[MMMojaveTabStyle(Assets) assets]', symObjAddr: 0x41C, symBinAddr: 0x2400C, symSize: 0x59CC }
+  - { offset: 0x129369, size: 0x8, addend: 0x0, symName: _assets.assets, symObjAddr: 0x126D8, symBinAddr: 0x52420, symSize: 0x0 }
+  - { offset: 0x12CD0F, size: 0x8, addend: 0x0, symName: '-[MMMojaveTabStyle(Assets) colorForPart:ofTabBarView:]', symObjAddr: 0x0, symBinAddr: 0x23BF0, symSize: 0x12 }
+  - { offset: 0x12CD85, size: 0x8, addend: 0x0, symName: '-[MMMojaveTabStyle(Assets) assetForPart:ofTabBarView:]', symObjAddr: 0x12, symBinAddr: 0x23C02, symSize: 0x40A }
+  - { offset: 0x12D0EA, size: 0x8, addend: 0x0, symName: '-[MMMojaveTabStyle(Assets) closeTabImageWithIconColor:backgroundColor:]', symObjAddr: 0x5DE8, symBinAddr: 0x299D8, symSize: 0xD7 }
+  - { offset: 0x12D25D, size: 0x8, addend: 0x0, symName: '___71-[MMMojaveTabStyle(Assets) closeTabImageWithIconColor:backgroundColor:]_block_invoke', symObjAddr: 0x5EBF, symBinAddr: 0x29AAF, symSize: 0x195 }
+  - { offset: 0x12D49D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x6054, symBinAddr: 0x29C44, symSize: 0x25 }
+  - { offset: 0x12D4DE, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x6079, symBinAddr: 0x29C69, symSize: 0x25 }
+  - { offset: 0x12D515, size: 0x8, addend: 0x0, symName: '-[MMMojaveTabStyle(Assets) closeDirtyTabImageWithIconColor:backgroundColor:]', symObjAddr: 0x609E, symBinAddr: 0x29C8E, symSize: 0xD7 }
+  - { offset: 0x12D663, size: 0x8, addend: 0x0, symName: '___76-[MMMojaveTabStyle(Assets) closeDirtyTabImageWithIconColor:backgroundColor:]_block_invoke', symObjAddr: 0x6175, symBinAddr: 0x29D65, symSize: 0x1DF }
+  - { offset: 0x12D8D9, size: 0x8, addend: 0x0, symName: '-[MMMojaveTabStyle(Assets) addTabImageWithIconColor:]', symObjAddr: 0x6354, symBinAddr: 0x29F44, symSize: 0xBA }
+  - { offset: 0x12D984, size: 0x8, addend: 0x0, symName: '___53-[MMMojaveTabStyle(Assets) addTabImageWithIconColor:]_block_invoke', symObjAddr: 0x640E, symBinAddr: 0x29FFE, symSize: 0x14E }
+  - { offset: 0x12DBF4, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x655C, symBinAddr: 0x2A14C, symSize: 0xF }
+  - { offset: 0x12E6D5, size: 0x8, addend: 0x0, symName: '+[MMCardTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x2A15B, symSize: 0xD }
+  - { offset: 0x12E71F, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle attributedStringValueForTabCell:]', symObjAddr: 0x40F, symBinAddr: 0x2A56A, symSize: 0x2BF }
+  - { offset: 0x12E749, size: 0x8, addend: 0x0, symName: '_attributedStringValueForTabCell:.TruncatingTailParagraphStyle', symObjAddr: 0xA900, symBinAddr: 0x52428, symSize: 0x0 }
+  - { offset: 0x12EB70, size: 0x8, addend: 0x0, symName: '+[MMCardTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x2A15B, symSize: 0xD }
+  - { offset: 0x12EBA3, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle name]', symObjAddr: 0xD, symBinAddr: 0x2A168, symSize: 0x2B }
+  - { offset: 0x12EBFB, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle init]', symObjAddr: 0x38, symBinAddr: 0x2A193, symSize: 0x215 }
+  - { offset: 0x12ED82, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle leftMarginForTabBarView:]', symObjAddr: 0x24D, symBinAddr: 0x2A3A8, symSize: 0x2D }
+  - { offset: 0x12EDDE, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle rightMarginForTabBarView:]', symObjAddr: 0x27A, symBinAddr: 0x2A3D5, symSize: 0x2D }
+  - { offset: 0x12EE3A, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle topMarginForTabBarView:]', symObjAddr: 0x2A7, symBinAddr: 0x2A402, symSize: 0x28 }
+  - { offset: 0x12EE92, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle heightOfTabBarButtonsForTabBarView:]', symObjAddr: 0x2CF, symBinAddr: 0x2A42A, symSize: 0x23 }
+  - { offset: 0x12EEF6, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle supportsOrientation:forTabBarView:]', symObjAddr: 0x2F2, symBinAddr: 0x2A44D, symSize: 0xE }
+  - { offset: 0x12EF43, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle draggingRectForTabButton:ofTabBarView:]', symObjAddr: 0x300, symBinAddr: 0x2A45B, symSize: 0x50 }
+  - { offset: 0x12EFA2, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle closeButtonImageOfType:forTabCell:]', symObjAddr: 0x350, symBinAddr: 0x2A4AB, symSize: 0x32 }
+  - { offset: 0x12F009, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle overflowButtonRectForTabBarView:]', symObjAddr: 0x382, symBinAddr: 0x2A4DD, symSize: 0x8D }
+  - { offset: 0x12F0BB, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle lineColor]', symObjAddr: 0x6CE, symBinAddr: 0x2A829, symSize: 0x85 }
+  - { offset: 0x12F126, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle gradientTopColorActive:highlighted:]', symObjAddr: 0x753, symBinAddr: 0x2A8AE, symSize: 0x1F1 }
+  - { offset: 0x12F293, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle gradientBottomColorActive:highlighted:]', symObjAddr: 0x944, symBinAddr: 0x2AA9F, symSize: 0x13B }
+  - { offset: 0x12F3A4, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle drawBezelOfTabBarView:inRect:]', symObjAddr: 0xA7F, symBinAddr: 0x2ABDA, symSize: 0x1E6 }
+  - { offset: 0x12F59F, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle drawBezelOfTabCell:withFrame:inView:]', symObjAddr: 0xC65, symBinAddr: 0x2ADC0, symSize: 0x114 }
+  - { offset: 0x12F721, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle drawBezelOfOverflowButton:ofTabBarView:inRect:]', symObjAddr: 0xD79, symBinAddr: 0x2AED4, symSize: 0x12E }
+  - { offset: 0x12F898, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle drawBezelInRect:withCapMask:usingStatesOfAttachedButton:ofTabBarView:]', symObjAddr: 0xEA7, symBinAddr: 0x2B002, symSize: 0x12 }
+  - { offset: 0x12F968, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle _drawBezelInRect:withCapMask:usingStatesOfAttachedButton:ofTabBarView:]', symObjAddr: 0xEB9, symBinAddr: 0x2B014, symSize: 0x37A }
+  - { offset: 0x12FD91, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle horizontalInset]', symObjAddr: 0x1233, symBinAddr: 0x2B38E, symSize: 0xB }
+  - { offset: 0x12FDC6, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle setHorizontalInset:]', symObjAddr: 0x123E, symBinAddr: 0x2B399, symSize: 0xB }
+  - { offset: 0x12FE03, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle topMargin]', symObjAddr: 0x1249, symBinAddr: 0x2B3A4, symSize: 0xB }
+  - { offset: 0x12FE38, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle setTopMargin:]', symObjAddr: 0x1254, symBinAddr: 0x2B3AF, symSize: 0xB }
+  - { offset: 0x12FE75, size: 0x8, addend: 0x0, symName: '-[MMCardTabStyle .cxx_destruct]', symObjAddr: 0x125F, symBinAddr: 0x2B3BA, symSize: 0x54 }
+  - { offset: 0x130795, size: 0x8, addend: 0x0, symName: '+[MMLiveChatTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x2B40E, symSize: 0xD }
+  - { offset: 0x1307A3, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle attributedStringValueForTabCell:]', symObjAddr: 0x13EC, symBinAddr: 0x2C7FA, symSize: 0x169 }
+  - { offset: 0x1307CF, size: 0x8, addend: 0x0, symName: '_attributedStringValueForTabCell:.TruncatingTailParagraphStyle', symObjAddr: 0xD9D8, symBinAddr: 0x52430, symSize: 0x0 }
+  - { offset: 0x130B21, size: 0x8, addend: 0x0, symName: '+[MMLiveChatTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x2B40E, symSize: 0xD }
+  - { offset: 0x130B54, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle name]', symObjAddr: 0xD, symBinAddr: 0x2B41B, symSize: 0x2B }
+  - { offset: 0x130BAC, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle init]', symObjAddr: 0x38, symBinAddr: 0x2B446, symSize: 0x379 }
+  - { offset: 0x130E1D, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle leftMarginForTabBarView:]', symObjAddr: 0x3B1, symBinAddr: 0x2B7BF, symSize: 0x2D }
+  - { offset: 0x130E79, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle rightMarginForTabBarView:]', symObjAddr: 0x3DE, symBinAddr: 0x2B7EC, symSize: 0x2D }
+  - { offset: 0x130ED5, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle topMarginForTabBarView:]', symObjAddr: 0x40B, symBinAddr: 0x2B819, symSize: 0x19 }
+  - { offset: 0x130F2D, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle supportsOrientation:forTabBarView:]', symObjAddr: 0x424, symBinAddr: 0x2B832, symSize: 0xE }
+  - { offset: 0x130F7A, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle draggingRectForTabButton:ofTabBarView:]', symObjAddr: 0x432, symBinAddr: 0x2B840, symSize: 0x50 }
+  - { offset: 0x130FD9, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle closeButtonImageOfType:forTabCell:]', symObjAddr: 0x482, symBinAddr: 0x2B890, symSize: 0x32 }
+  - { offset: 0x13108A, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle iconRectForBounds:ofTabCell:]', symObjAddr: 0x4B4, symBinAddr: 0x2B8C2, symSize: 0x241 }
+  - { offset: 0x131293, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle titleRectForBounds:ofTabCell:]', symObjAddr: 0x6F5, symBinAddr: 0x2BB03, symSize: 0x4DF }
+  - { offset: 0x1314F0, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle objectCounterRectForBounds:ofTabCell:]', symObjAddr: 0xBD4, symBinAddr: 0x2BFE2, symSize: 0x2A2 }
+  - { offset: 0x131654, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle indicatorRectForBounds:ofTabCell:]', symObjAddr: 0xE76, symBinAddr: 0x2C284, symSize: 0x1D2 }
+  - { offset: 0x1317DD, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle closeButtonRectForBounds:ofTabCell:]', symObjAddr: 0x1048, symBinAddr: 0x2C456, symSize: 0x17C }
+  - { offset: 0x131981, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle largeImageRectForBounds:ofTabCell:]', symObjAddr: 0x11C4, symBinAddr: 0x2C5D2, symSize: 0x19E }
+  - { offset: 0x131AEB, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle attributedObjectCountStringValueForTabCell:]', symObjAddr: 0x1362, symBinAddr: 0x2C770, symSize: 0x8A }
+  - { offset: 0x131BA8, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle drawBezelOfTabBarView:inRect:]', symObjAddr: 0x1555, symBinAddr: 0x2C963, symSize: 0x21A }
+  - { offset: 0x131D90, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle drawBezelOfTabCell:withFrame:inView:]', symObjAddr: 0x176F, symBinAddr: 0x2CB7D, symSize: 0x4EE }
+  - { offset: 0x132249, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle drawBezelOfOverflowButton:ofTabBarView:inRect:]', symObjAddr: 0x1C5D, symBinAddr: 0x2D06B, symSize: 0x284 }
+  - { offset: 0x1324FC, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle drawBezelInRect:withCapMask:usingStatesOfAttachedButton:ofTabBarView:]', symObjAddr: 0x1EE1, symBinAddr: 0x2D2EF, symSize: 0x12 }
+  - { offset: 0x132598, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle _drawBezelInRect:withCapMask:usingStatesOfAttachedButton:ofTabBarView:]', symObjAddr: 0x1EF3, symBinAddr: 0x2D301, symSize: 0x286 }
+  - { offset: 0x132893, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle leftMarginForTabBarView]', symObjAddr: 0x2179, symBinAddr: 0x2D587, symSize: 0xB }
+  - { offset: 0x1328C8, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle setLeftMarginForTabBarView:]', symObjAddr: 0x2184, symBinAddr: 0x2D592, symSize: 0xB }
+  - { offset: 0x132905, size: 0x8, addend: 0x0, symName: '-[MMLiveChatTabStyle .cxx_destruct]', symObjAddr: 0x218F, symBinAddr: 0x2D59D, symSize: 0x5F }
+  - { offset: 0x13322D, size: 0x8, addend: 0x0, symName: '+[MMMetalTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x2D5FC, symSize: 0xD }
+  - { offset: 0x133297, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle attributedStringValueForTabCell:]', symObjAddr: 0x7A3, symBinAddr: 0x2DD9F, symSize: 0x313 }
+  - { offset: 0x1332C1, size: 0x8, addend: 0x0, symName: '_attributedStringValueForTabCell:.TruncatingTailParagraphStyle', symObjAddr: 0xBCD0, symBinAddr: 0x52438, symSize: 0x0 }
+  - { offset: 0x133741, size: 0x8, addend: 0x0, symName: '+[MMMetalTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x2D5FC, symSize: 0xD }
+  - { offset: 0x133774, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle name]', symObjAddr: 0xD, symBinAddr: 0x2D609, symSize: 0x2B }
+  - { offset: 0x1337CC, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle init]', symObjAddr: 0x38, symBinAddr: 0x2D634, symSize: 0x36B }
+  - { offset: 0x133A3D, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle leftMarginForTabBarView:]', symObjAddr: 0x3A3, symBinAddr: 0x2D99F, symSize: 0x28 }
+  - { offset: 0x133A95, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle rightMarginForTabBarView:]', symObjAddr: 0x3CB, symBinAddr: 0x2D9C7, symSize: 0x28 }
+  - { offset: 0x133AED, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle topMarginForTabBarView:]', symObjAddr: 0x3F3, symBinAddr: 0x2D9EF, symSize: 0x26 }
+  - { offset: 0x133B6C, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle updateAddButton:ofTabBarView:]', symObjAddr: 0x419, symBinAddr: 0x2DA15, symSize: 0x1C1 }
+  - { offset: 0x133D27, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle draggingRectForTabButton:ofTabBarView:]', symObjAddr: 0x5DA, symBinAddr: 0x2DBD6, symSize: 0x10D }
+  - { offset: 0x133E13, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle closeButtonImageOfType:forTabCell:]', symObjAddr: 0x6E7, symBinAddr: 0x2DCE3, symSize: 0x32 }
+  - { offset: 0x133E7A, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle attributedObjectCountStringValueForTabCell:]', symObjAddr: 0x719, symBinAddr: 0x2DD15, symSize: 0x8A }
+  - { offset: 0x133F1A, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle drawingRectForBounds:ofTabCell:]', symObjAddr: 0xAB6, symBinAddr: 0x2E0B2, symSize: 0x111 }
+  - { offset: 0x134044, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle drawBezelOfTabBarView:inRect:]', symObjAddr: 0xBC7, symBinAddr: 0x2E1C3, symSize: 0x314 }
+  - { offset: 0x134294, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle drawBezelOfTabCell:withFrame:inView:]', symObjAddr: 0xEDB, symBinAddr: 0x2E4D7, symSize: 0x240 }
+  - { offset: 0x134537, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle drawBezelOfOverflowButton:ofTabBarView:inRect:]', symObjAddr: 0x111B, symBinAddr: 0x2E717, symSize: 0x323 }
+  - { offset: 0x1348F7, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle _shouldDrawHorizontalTopBorderLineInView:]', symObjAddr: 0x143E, symBinAddr: 0x2EA3A, symSize: 0xAA }
+  - { offset: 0x134A1C, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle _drawBezelInRect:withCapMask:usingStatesOfAttachedButton:ofTabBarView:]', symObjAddr: 0x14E8, symBinAddr: 0x2EAE4, symSize: 0x67E }
+  - { offset: 0x1350B3, size: 0x8, addend: 0x0, symName: '-[MMMetalTabStyle .cxx_destruct]', symObjAddr: 0x1B66, symBinAddr: 0x2F162, symSize: 0x5F }
+  - { offset: 0x1359E2, size: 0x8, addend: 0x0, symName: '+[MMUnifiedTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x2F1C1, symSize: 0xD }
+  - { offset: 0x135BE4, size: 0x8, addend: 0x0, symName: '+[MMUnifiedTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x2F1C1, symSize: 0xD }
+  - { offset: 0x135C17, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle name]', symObjAddr: 0xD, symBinAddr: 0x2F1CE, symSize: 0x2B }
+  - { offset: 0x135C6F, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle init]', symObjAddr: 0x38, symBinAddr: 0x2F1F9, symSize: 0x20F }
+  - { offset: 0x135DF6, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle leftMarginForTabBarView:]', symObjAddr: 0x247, symBinAddr: 0x2F408, symSize: 0x2D }
+  - { offset: 0x135E52, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle rightMarginForTabBarView:]', symObjAddr: 0x274, symBinAddr: 0x2F435, symSize: 0x2D }
+  - { offset: 0x135EAE, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle topMarginForTabBarView:]', symObjAddr: 0x2A1, symBinAddr: 0x2F462, symSize: 0x19 }
+  - { offset: 0x135F06, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle supportsOrientation:forTabBarView:]', symObjAddr: 0x2BA, symBinAddr: 0x2F47B, symSize: 0xE }
+  - { offset: 0x135F53, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle draggingRectForTabButton:ofTabBarView:]', symObjAddr: 0x2C8, symBinAddr: 0x2F489, symSize: 0x50 }
+  - { offset: 0x135FB2, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle closeButtonImageOfType:forTabCell:]', symObjAddr: 0x318, symBinAddr: 0x2F4D9, symSize: 0x32 }
+  - { offset: 0x13604D, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle drawBezelOfTabBarView:inRect:]', symObjAddr: 0x34A, symBinAddr: 0x2F50B, symSize: 0x2AB }
+  - { offset: 0x1362EA, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle drawBezelOfButton:atIndex:inButtons:indexOfSelectedButton:tabBarView:inRect:]', symObjAddr: 0x5F5, symBinAddr: 0x2F7B6, symSize: 0x33A }
+  - { offset: 0x1366CA, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle drawBezelOfTabCell:withFrame:inView:]', symObjAddr: 0x92F, symBinAddr: 0x2FAF0, symSize: 0x28E }
+  - { offset: 0x13697E, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle drawBezelOfOverflowButton:ofTabBarView:inRect:]', symObjAddr: 0xBBD, symBinAddr: 0x2FD7E, symSize: 0x3D0 }
+  - { offset: 0x136D28, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle _drawCardBezelInRect:withCapMask:usingStatesOfAttachedButton:ofTabBarView:]', symObjAddr: 0xF8D, symBinAddr: 0x3014E, symSize: 0x3B8 }
+  - { offset: 0x137168, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle _drawBoxBezelInRect:withCapMask:usingStatesOfAttachedButton:ofTabBarView:]', symObjAddr: 0x1345, symBinAddr: 0x30506, symSize: 0xC8 }
+  - { offset: 0x137270, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle leftMarginForTabBarView]', symObjAddr: 0x140D, symBinAddr: 0x305CE, symSize: 0xB }
+  - { offset: 0x1372A5, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle setLeftMarginForTabBarView:]', symObjAddr: 0x1418, symBinAddr: 0x305D9, symSize: 0xB }
+  - { offset: 0x1372E2, size: 0x8, addend: 0x0, symName: '-[MMUnifiedTabStyle .cxx_destruct]', symObjAddr: 0x1423, symBinAddr: 0x305E4, symSize: 0x54 }
+  - { offset: 0x137C08, size: 0x8, addend: 0x0, symName: '-[NSString(MMTabBarViewExtensions) stringByTruncatingToLength:]', symObjAddr: 0x0, symBinAddr: 0x30638, symSize: 0x97 }
+  - { offset: 0x137C16, size: 0x8, addend: 0x0, symName: '-[NSString(MMTabBarViewExtensions) stringByTruncatingToLength:]', symObjAddr: 0x0, symBinAddr: 0x30638, symSize: 0x97 }
+  - { offset: 0x137D1B, size: 0x8, addend: 0x0, symName: '+[MMSafariTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x306D0, symSize: 0xD }
+  - { offset: 0x137DB4, size: 0x8, addend: 0x0, symName: __staticTabClose_DirtyImage, symObjAddr: 0x19F7, symBinAddr: 0x320C7, symSize: 0x8C }
+  - { offset: 0x137DDA, size: 0x8, addend: 0x0, symName: __staticTabClose_DirtyImage.image, symObjAddr: 0xCB88, symBinAddr: 0x524A0, symSize: 0x0 }
+  - { offset: 0x137E31, size: 0x8, addend: 0x0, symName: __staticTabClose_Dirty_RolloverImage, symObjAddr: 0x1A83, symBinAddr: 0x32153, symSize: 0x8C }
+  - { offset: 0x137E57, size: 0x8, addend: 0x0, symName: __staticTabClose_Dirty_RolloverImage.image, symObjAddr: 0xCB90, symBinAddr: 0x524A8, symSize: 0x0 }
+  - { offset: 0x137EAE, size: 0x8, addend: 0x0, symName: __staticTabClose_Dirty_PressedImage, symObjAddr: 0x1B0F, symBinAddr: 0x321DF, symSize: 0x8C }
+  - { offset: 0x137ED4, size: 0x8, addend: 0x0, symName: __staticTabClose_Dirty_PressedImage.image, symObjAddr: 0xCB98, symBinAddr: 0x524B0, symSize: 0x0 }
+  - { offset: 0x137F2B, size: 0x8, addend: 0x0, symName: __staticSafariAWITLeftCapImage, symObjAddr: 0x1B9B, symBinAddr: 0x3226B, symSize: 0x8C }
+  - { offset: 0x137F51, size: 0x8, addend: 0x0, symName: __staticSafariAWITLeftCapImage.image, symObjAddr: 0xCBE0, symBinAddr: 0x524F8, symSize: 0x0 }
+  - { offset: 0x137FA8, size: 0x8, addend: 0x0, symName: __staticSafariAWITRightCapImage, symObjAddr: 0x1C27, symBinAddr: 0x322F7, symSize: 0x8C }
+  - { offset: 0x137FCE, size: 0x8, addend: 0x0, symName: __staticSafariAWITRightCapImage.image, symObjAddr: 0xCBE8, symBinAddr: 0x52500, symSize: 0x0 }
+  - { offset: 0x138025, size: 0x8, addend: 0x0, symName: __staticSafariAWATLeftCapImage, symObjAddr: 0x1CB3, symBinAddr: 0x32383, symSize: 0x8C }
+  - { offset: 0x13804B, size: 0x8, addend: 0x0, symName: __staticSafariAWATLeftCapImage.image, symObjAddr: 0xCBF0, symBinAddr: 0x52508, symSize: 0x0 }
+  - { offset: 0x1380A2, size: 0x8, addend: 0x0, symName: __staticSafariAWATFillImage, symObjAddr: 0x1D3F, symBinAddr: 0x3240F, symSize: 0x8C }
+  - { offset: 0x1380C8, size: 0x8, addend: 0x0, symName: __staticSafariAWATFillImage.image, symObjAddr: 0xCBF8, symBinAddr: 0x52510, symSize: 0x0 }
+  - { offset: 0x13811F, size: 0x8, addend: 0x0, symName: __staticSafariAWATRightCapImage, symObjAddr: 0x1DCB, symBinAddr: 0x3249B, symSize: 0x8C }
+  - { offset: 0x138145, size: 0x8, addend: 0x0, symName: __staticSafariAWATRightCapImage.image, symObjAddr: 0xCC00, symBinAddr: 0x52518, symSize: 0x0 }
+  - { offset: 0x13819C, size: 0x8, addend: 0x0, symName: __staticSafariIWATLeftCapImage, symObjAddr: 0x1E57, symBinAddr: 0x32527, symSize: 0x8C }
+  - { offset: 0x1381C2, size: 0x8, addend: 0x0, symName: __staticSafariIWATLeftCapImage.image, symObjAddr: 0xCC08, symBinAddr: 0x52520, symSize: 0x0 }
+  - { offset: 0x138219, size: 0x8, addend: 0x0, symName: __staticSafariIWATFillImage, symObjAddr: 0x1EE3, symBinAddr: 0x325B3, symSize: 0x8C }
+  - { offset: 0x13823F, size: 0x8, addend: 0x0, symName: __staticSafariIWATFillImage.image, symObjAddr: 0xCC10, symBinAddr: 0x52528, symSize: 0x0 }
+  - { offset: 0x138296, size: 0x8, addend: 0x0, symName: __staticSafariIWATRightCapImage, symObjAddr: 0x1F6F, symBinAddr: 0x3263F, symSize: 0x8C }
+  - { offset: 0x1382BC, size: 0x8, addend: 0x0, symName: __staticSafariIWATRightCapImage.image, symObjAddr: 0xCC18, symBinAddr: 0x52530, symSize: 0x0 }
+  - { offset: 0x138313, size: 0x8, addend: 0x0, symName: __staticSafariIWITRightCapImage, symObjAddr: 0x1FFB, symBinAddr: 0x326CB, symSize: 0x8C }
+  - { offset: 0x138339, size: 0x8, addend: 0x0, symName: __staticSafariIWITRightCapImage.image, symObjAddr: 0xCC20, symBinAddr: 0x52538, symSize: 0x0 }
+  - { offset: 0x138390, size: 0x8, addend: 0x0, symName: __staticSafariIWITLeftCapImage, symObjAddr: 0x2087, symBinAddr: 0x32757, symSize: 0x99 }
+  - { offset: 0x1383B6, size: 0x8, addend: 0x0, symName: __staticSafariIWITLeftCapImage.image, symObjAddr: 0xCC28, symBinAddr: 0x52540, symSize: 0x0 }
+  - { offset: 0x138CCF, size: 0x8, addend: 0x0, symName: '+[MMSafariTabStyle name]', symObjAddr: 0x0, symBinAddr: 0x306D0, symSize: 0xD }
+  - { offset: 0x138D02, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle name]', symObjAddr: 0xD, symBinAddr: 0x306DD, symSize: 0x2B }
+  - { offset: 0x138D5A, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle init]', symObjAddr: 0x38, symBinAddr: 0x30708, symSize: 0x1B7 }
+  - { offset: 0x138E7B, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle leftMarginForTabBarView:]', symObjAddr: 0x1EF, symBinAddr: 0x308BF, symSize: 0xE }
+  - { offset: 0x138EBA, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle rightMarginForTabBarView:]', symObjAddr: 0x1FD, symBinAddr: 0x308CD, symSize: 0xE }
+  - { offset: 0x138EF9, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle supportsOrientation:forTabBarView:]', symObjAddr: 0x20B, symBinAddr: 0x308DB, symSize: 0xE }
+  - { offset: 0x138F46, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle addTabButtonSizeForTabBarView:]', symObjAddr: 0x219, symBinAddr: 0x308E9, symSize: 0x40 }
+  - { offset: 0x138F89, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle addTabButtonRectForTabBarView:]', symObjAddr: 0x259, symBinAddr: 0x30929, symSize: 0x6E }
+  - { offset: 0x139003, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle updateAddButton:ofTabBarView:]', symObjAddr: 0x2C7, symBinAddr: 0x30997, symSize: 0x1C1 }
+  - { offset: 0x1391BE, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle draggingRectForTabButton:ofTabBarView:]', symObjAddr: 0x488, symBinAddr: 0x30B58, symSize: 0x10D }
+  - { offset: 0x139336, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle closeButtonImageOfType:forTabCell:]', symObjAddr: 0x595, symBinAddr: 0x30C65, symSize: 0x697 }
+  - { offset: 0x139800, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle drawingRectForBounds:ofTabCell:]', symObjAddr: 0xC2C, symBinAddr: 0x312FC, symSize: 0xC1 }
+  - { offset: 0x1398C5, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle closeButtonRectForBounds:ofTabCell:]', symObjAddr: 0xCED, symBinAddr: 0x313BD, symSize: 0xBF }
+  - { offset: 0x139975, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle overflowButtonRectForTabBarView:]', symObjAddr: 0xDAC, symBinAddr: 0x3147C, symSize: 0xAB }
+  - { offset: 0x139A19, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle drawBezelOfTabBarView:inRect:]', symObjAddr: 0xE57, symBinAddr: 0x31527, symSize: 0x203 }
+  - { offset: 0x139C2C, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle drawBezelOfButton:atIndex:inButtons:indexOfSelectedButton:tabBarView:inRect:]', symObjAddr: 0x105A, symBinAddr: 0x3172A, symSize: 0x529 }
+  - { offset: 0x13A0DF, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle drawBezelOfOverflowButton:ofTabBarView:inRect:]', symObjAddr: 0x1583, symBinAddr: 0x31C53, symSize: 0x1BE }
+  - { offset: 0x13A31A, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle drawBezelOfTabCell:withFrame:inView:]', symObjAddr: 0x1741, symBinAddr: 0x31E11, symSize: 0x2A6 }
+  - { offset: 0x13A60C, size: 0x8, addend: 0x0, symName: '-[MMSafariTabStyle .cxx_destruct]', symObjAddr: 0x19E7, symBinAddr: 0x320B7, symSize: 0x10 }
+  - { offset: 0x13A761, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell initTextCell:pullsDown:]', symObjAddr: 0x0, symBinAddr: 0x327F0, symSize: 0x8F }
+  - { offset: 0x13A8C4, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell initTextCell:pullsDown:]', symObjAddr: 0x0, symBinAddr: 0x327F0, symSize: 0x8F }
+  - { offset: 0x13A93F, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell image]', symObjAddr: 0x8F, symBinAddr: 0x3287F, symSize: 0x28 }
+  - { offset: 0x13A98A, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell setImage:]', symObjAddr: 0xB7, symBinAddr: 0x328A7, symSize: 0x4F }
+  - { offset: 0x13A9FA, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell drawWithFrame:inView:]', symObjAddr: 0x106, symBinAddr: 0x328F6, symSize: 0x7F }
+  - { offset: 0x13AAAA, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell drawInteriorWithFrame:inView:]', symObjAddr: 0x185, symBinAddr: 0x32975, symSize: 0x12 }
+  - { offset: 0x13AB15, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell drawImageWithFrame:inView:]', symObjAddr: 0x197, symBinAddr: 0x32987, symSize: 0x13A }
+  - { offset: 0x13AC6A, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell drawImage:withFrame:inView:]', symObjAddr: 0x2D1, symBinAddr: 0x32AC1, symSize: 0x1A }
+  - { offset: 0x13ACEB, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell drawImage:withFrame:inView:alpha:]', symObjAddr: 0x2EB, symBinAddr: 0x32ADB, symSize: 0xB4 }
+  - { offset: 0x13ADC1, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell drawBezelWithFrame:inView:]', symObjAddr: 0x39F, symBinAddr: 0x32B8F, symSize: 0x20 }
+  - { offset: 0x13AE1D, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell copyWithZone:]', symObjAddr: 0x3BF, symBinAddr: 0x32BAF, symSize: 0xA1 }
+  - { offset: 0x13AEBB, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell encodeWithCoder:]', symObjAddr: 0x460, symBinAddr: 0x32C50, symSize: 0xAD }
+  - { offset: 0x13AF71, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell initWithCoder:]', symObjAddr: 0x50D, symBinAddr: 0x32CFD, symSize: 0xE1 }
+  - { offset: 0x13B089, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell _imageRectForBounds:forImage:]', symObjAddr: 0x5EE, symBinAddr: 0x32DDE, symSize: 0x112 }
+  - { offset: 0x13B211, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell bezelDrawingBlock]', symObjAddr: 0x700, symBinAddr: 0x32EF0, symSize: 0x16 }
+  - { offset: 0x13B248, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell setBezelDrawingBlock:]', symObjAddr: 0x716, symBinAddr: 0x32F06, symSize: 0x11 }
+  - { offset: 0x13B287, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell secondImage]', symObjAddr: 0x727, symBinAddr: 0x32F17, symSize: 0x16 }
+  - { offset: 0x13B2BE, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell setSecondImage:]', symObjAddr: 0x73D, symBinAddr: 0x32F2D, symSize: 0x11 }
+  - { offset: 0x13B2FD, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell secondImageAlpha]', symObjAddr: 0x74E, symBinAddr: 0x32F3E, symSize: 0x12 }
+  - { offset: 0x13B332, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell setSecondImageAlpha:]', symObjAddr: 0x760, symBinAddr: 0x32F50, symSize: 0x12 }
+  - { offset: 0x13B36F, size: 0x8, addend: 0x0, symName: '-[MMOverflowPopUpButtonCell .cxx_destruct]', symObjAddr: 0x772, symBinAddr: 0x32F62, symSize: 0x42 }
+  - { offset: 0x13B44F, size: 0x8, addend: 0x0, symName: '-[NSCell(MMTabBarViewExtensions) mm_scaleImageWithSize:toFitInSize:scalingType:]', symObjAddr: 0x0, symBinAddr: 0x32FA4, symSize: 0xEB }
+  - { offset: 0x13B4C4, size: 0x8, addend: 0x0, symName: '-[NSCell(MMTabBarViewExtensions) mm_scaleImageWithSize:toFitInSize:scalingType:]', symObjAddr: 0x0, symBinAddr: 0x32FA4, symSize: 0xEB }
+  - { offset: 0x13B5F2, size: 0x8, addend: 0x0, symName: '-[NSAffineTransform(MMTabBarViewExtensions) mm_flipVertical:]', symObjAddr: 0x0, symBinAddr: 0x3308F, symSize: 0x99 }
+  - { offset: 0x13B600, size: 0x8, addend: 0x0, symName: '-[NSAffineTransform(MMTabBarViewExtensions) mm_flipVertical:]', symObjAddr: 0x0, symBinAddr: 0x3308F, symSize: 0x99 }
+  - { offset: 0x13B6D0, size: 0x8, addend: 0x0, symName: '+[NSBezierPath(MMTabBarViewExtensions) bezierPathWithCardInRect:radius:capMask:]', symObjAddr: 0x0, symBinAddr: 0x33128, symSize: 0xF1 }
+  - { offset: 0x13B71B, size: 0x8, addend: 0x0, symName: '+[NSBezierPath(MMTabBarViewExtensions) bezierPathWithCardInRect:radius:capMask:]', symObjAddr: 0x0, symBinAddr: 0x33128, symSize: 0xF1 }
+  - { offset: 0x13B7F1, size: 0x8, addend: 0x0, symName: '+[NSBezierPath(MMTabBarViewExtensions) bezierPathWithRoundedRect:radius:capMask:]', symObjAddr: 0xF1, symBinAddr: 0x33219, symSize: 0xF1 }
+  - { offset: 0x13B92F, size: 0x8, addend: 0x0, symName: '+[NSBezierPath(MMTabBarViewExtensions) _bezierPathWithCardInRect:radius:capMask:]', symObjAddr: 0x1E2, symBinAddr: 0x3330A, symSize: 0x1E0 }
+  - { offset: 0x13BC03, size: 0x8, addend: 0x0, symName: '+[NSBezierPath(MMTabBarViewExtensions) _bezierPathWithRoundedRect:radius:capMask:]', symObjAddr: 0x3C2, symBinAddr: 0x334EA, symSize: 0x1F7 }
+  - { offset: 0x13BF8C, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) largeImage]', symObjAddr: 0x0, symBinAddr: 0x336E1, symSize: 0x11 }
+  - { offset: 0x13BFA6, size: 0x8, addend: 0x0, symName: _largeImage_key, symObjAddr: 0x3935, symBinAddr: 0x52548, symSize: 0x0 }
+  - { offset: 0x13BFC3, size: 0x8, addend: 0x0, symName: _icon_key, symObjAddr: 0x3936, symBinAddr: 0x52549, symSize: 0x0 }
+  - { offset: 0x13BFD9, size: 0x8, addend: 0x0, symName: _isProcessing_key, symObjAddr: 0x3937, symBinAddr: 0x5254A, symSize: 0x0 }
+  - { offset: 0x13BFEF, size: 0x8, addend: 0x0, symName: _isEdited_key, symObjAddr: 0x393B, symBinAddr: 0x5254E, symSize: 0x0 }
+  - { offset: 0x13C005, size: 0x8, addend: 0x0, symName: _hasCloseButton_key, symObjAddr: 0x393C, symBinAddr: 0x5254F, symSize: 0x0 }
+  - { offset: 0x13C01B, size: 0x8, addend: 0x0, symName: _objectCount_key, symObjAddr: 0x3938, symBinAddr: 0x5254B, symSize: 0x0 }
+  - { offset: 0x13C031, size: 0x8, addend: 0x0, symName: _objectCountColor_key, symObjAddr: 0x3939, symBinAddr: 0x5254C, symSize: 0x0 }
+  - { offset: 0x13C047, size: 0x8, addend: 0x0, symName: _showObjectCount_key, symObjAddr: 0x393A, symBinAddr: 0x5254D, symSize: 0x0 }
+  - { offset: 0x13C056, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) largeImage]', symObjAddr: 0x0, symBinAddr: 0x336E1, symSize: 0x11 }
+  - { offset: 0x13C0E9, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) setLargeImage:]', symObjAddr: 0x11, symBinAddr: 0x336F2, symSize: 0x16 }
+  - { offset: 0x13C16D, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) icon]', symObjAddr: 0x27, symBinAddr: 0x33708, symSize: 0x11 }
+  - { offset: 0x13C1B9, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) setIcon:]', symObjAddr: 0x38, symBinAddr: 0x33719, symSize: 0x16 }
+  - { offset: 0x13C21F, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) isProcessing]', symObjAddr: 0x4E, symBinAddr: 0x3372F, symSize: 0x43 }
+  - { offset: 0x13C284, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) setIsProcessing:]', symObjAddr: 0x91, symBinAddr: 0x33772, symSize: 0x4D }
+  - { offset: 0x13C30D, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) objectCount]', symObjAddr: 0xDE, symBinAddr: 0x337BF, symSize: 0x42 }
+  - { offset: 0x13C372, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) setObjectCount:]', symObjAddr: 0x120, symBinAddr: 0x33801, symSize: 0x4D }
+  - { offset: 0x13C3FB, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) objectCountColor]', symObjAddr: 0x16D, symBinAddr: 0x3384E, symSize: 0x11 }
+  - { offset: 0x13C447, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) setObjectCountColor:]', symObjAddr: 0x17E, symBinAddr: 0x3385F, symSize: 0x16 }
+  - { offset: 0x13C4AD, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) showObjectCount]', symObjAddr: 0x194, symBinAddr: 0x33875, symSize: 0x43 }
+  - { offset: 0x13C512, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) setShowObjectCount:]', symObjAddr: 0x1D7, symBinAddr: 0x338B8, symSize: 0x4D }
+  - { offset: 0x13C59B, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) isEdited]', symObjAddr: 0x224, symBinAddr: 0x33905, symSize: 0x43 }
+  - { offset: 0x13C600, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) setIsEdited:]', symObjAddr: 0x267, symBinAddr: 0x33948, symSize: 0x4D }
+  - { offset: 0x13C689, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) hasCloseButton]', symObjAddr: 0x2B4, symBinAddr: 0x33995, symSize: 0x43 }
+  - { offset: 0x13C6EE, size: 0x8, addend: 0x0, symName: '-[NSTabViewItem(MMTabBarViewExtensions) setHasCloseButton:]', symObjAddr: 0x2F7, symBinAddr: 0x339D8, symSize: 0x4D }
 ...

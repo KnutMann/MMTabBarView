@@ -265,9 +265,17 @@ static const CGFloat kMMTahoeIconNudgeY = 1.0;
 - (NSAttributedString *)attributedStringValueForTabCell:(MMTabBarButtonCell *)cell
 {
     NSMutableAttributedString *attrStr = [[super attributedStringValueForTabCell:cell] mutableCopy];
+    NSRange range = NSMakeRange(0, attrStr.length);
     [attrStr addAttribute:NSFontAttributeName
                     value:[NSFont systemFontOfSize:12.0]
-                    range:NSMakeRange(0, attrStr.length)];
+                    range:range];
+    /* The inherited inactive-window text color is too pale on the
+     * translucent pills; use the standard secondary label color instead. */
+    NSWindow *window = cell.tabBarView.window;
+    if (window && !window.isMainWindow)
+        [attrStr addAttribute:NSForegroundColorAttributeName
+                        value:[NSColor secondaryLabelColor]
+                        range:range];
     return attrStr;
 }
 
@@ -313,11 +321,22 @@ static const CGFloat kMMTahoeIconNudgeY = 1.0;
     if (NSIsEmptyRect(pillRect))
         return;
 
+    /* Translucent fills so the pills sit naturally on the vibrancy
+     * backdrop the hosting window places behind the bar. */
+    BOOL dark = NO;
+    if (@available(macOS 10.14, *)) {
+        NSAppearanceName match = [tabBarView.effectiveAppearance
+            bestMatchFromAppearancesWithNames:@[NSAppearanceNameAqua, NSAppearanceNameDarkAqua]];
+        dark = [match isEqualToString:NSAppearanceNameDarkAqua];
+    }
+
     NSColor *fillColor = nil;
     if (button.state == NSOnState)
-        fillColor = [self colorForPart:MMMtabSelected ofTabBarView:tabBarView];
+        fillColor = [NSColor colorWithCalibratedWhite:(dark ? 1.0 : 1.0)
+                                                alpha:(dark ? 0.22 : 0.65)];
     else if (button.cell.mouseHovered)
-        fillColor = [self colorForPart:MMMtabUnselectedHover ofTabBarView:tabBarView];
+        fillColor = [NSColor colorWithCalibratedWhite:(dark ? 1.0 : 1.0)
+                                                alpha:(dark ? 0.10 : 0.35)];
 
     if (!fillColor)
         return;   // unselected, not hovered: pill stays invisible
