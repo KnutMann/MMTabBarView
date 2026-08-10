@@ -1,0 +1,28 @@
+moduledependenciestarget: \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGL.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/DarwinFoundation1.modulemap \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_AvailabilityInternal-1NFQTY3XTWJ8S3XRWHGYBOMOV.pcm \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/module.modulemap \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/ptrcheck-6P8ZKP4UGA642SG5HFEK8SDO0.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_DarwinFoundation1-3IT505QBBQ90I374CA0UTND36.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/CGLCurrent.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/CGLTypes.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/CGLDevice.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_Builtin_stddef-DUC8NCAYTUYP9DOUXOOFSAVEX.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_Builtin_stdarg-8YXR5MLMT73SWGBFFRSNPI83I.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_DarwinFoundation2-55OWQCJMOT5FFZDYXL5D4T936.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_Builtin_stdint-DX3WTZ56BRAPZWEM6DSC55SUN.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/CGLRenderers.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/CGLIOSurface.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl3.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl3ext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gluContext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/CGLContext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gliContext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gliDispatch.h

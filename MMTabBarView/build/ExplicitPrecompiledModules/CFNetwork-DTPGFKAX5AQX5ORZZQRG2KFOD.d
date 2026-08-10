@@ -1,0 +1,37 @@
+moduledependenciestarget: \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CFNetwork.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/Darwin.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Modules/module.modulemap \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_AvailabilityInternal-2IAHV2WQU476405YG2GULWWUP.pcm \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/module.modulemap \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/ptrcheck-EWAVSZJV5BXF8AMPWSJJ2YTAK.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_DarwinFoundation1-5TWQIIPXSIMB2MN6IE6RFMZIT.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_Builtin_stddef-432KZCPCIO12RJIE3NQGSZQKP.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_Builtin_stdarg-B6MBO1JHBSVY1LHNEK6LWFZA5.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_DarwinFoundation2-F4A5IXSOQVWG8P0NWU126CGA2.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_Builtin_float-34EX73UZT6DBDAJDE0BN8K6RG.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_Builtin_limits-4R8ZJ7SSEGYMIHTLJYTXHVF2N.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_Builtin_stdint-2B9U3GK8OSOGLPVIEOIJX2PHN.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_DarwinFoundation3-BRTKGMAMJJ99G9MRKKPGF7MDK.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_Builtin_inttypes-2IRG82F2Z23GUOUEHM5UWP8II.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_Builtin_stdbool-4NXYNP4BQXR74XOEBE9RI8J1B.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/Darwin-23LEMP68S0LH7PYZ5SYG2Z6DK.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/ptrauth-641DGJFBMJ8BS82CM2414LONS.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/MachO-BE7DFWH1KCAMDHILSRJWBTKI8.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/ObjectiveC-4WMIPUXDJTUS9BFKQ7JZKLAOE.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/os_object-4UH363LSRT5RNW3CVSIUKOANV.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/os_workgroup-7C8G7QGE3DA9UXTFC5RYGNW65.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/Dispatch-CRVG84SKH02FJ256UCP06GY6.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/CoreFoundation-7QBLOVB35YOHX1RYC23MBDF4Y.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetworkDefs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetworkErrors.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFSocketStream.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFHost.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetServices.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFFTPStream.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFHTTPMessage.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFHTTPStream.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFHTTPAuthentication.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetDiagnostics.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFProxySupport.h

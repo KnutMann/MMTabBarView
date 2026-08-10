@@ -277,8 +277,8 @@ static const CGFloat kMMTahoeIconNudgeY = 1.0;
 {
     rect = tabBarView.bounds;
 
-    [[self colorForPart:MMMtabBarBackground ofTabBarView:tabBarView] set];
-    NSRectFill(rect);
+    // No opaque background: the hosting window places a vibrancy backdrop
+    // behind the bar (falling back to the plain window background).
 
     // Single subtle separator towards the message view; no top hairline,
     // no per-tab dividers — Tahoe is line-less.

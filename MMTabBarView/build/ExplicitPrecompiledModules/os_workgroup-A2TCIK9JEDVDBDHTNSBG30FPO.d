@@ -1,0 +1,31 @@
+moduledependenciestarget: \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/os.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/Darwin.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/os/workgroup.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/os/workgroup_base.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/DarwinFoundation2.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/DarwinFoundation1.modulemap \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_AvailabilityInternal-1NFQTY3XTWJ8S3XRWHGYBOMOV.pcm \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/module.modulemap \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/ptrcheck-6P8ZKP4UGA642SG5HFEK8SDO0.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_DarwinFoundation1-3IT505QBBQ90I374CA0UTND36.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_Builtin_stddef-DUC8NCAYTUYP9DOUXOOFSAVEX.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_Builtin_stdarg-8YXR5MLMT73SWGBFFRSNPI83I.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_DarwinFoundation2-55OWQCJMOT5FFZDYXL5D4T936.pcm \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/stddef.h \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_Builtin_stdint-DX3WTZ56BRAPZWEM6DSC55SUN.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_Builtin_stdbool-EN43CSI12WBI8H99AL5ZUHDZI.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/DarwinFoundation3.modulemap \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_DarwinFoundation3-BOJDNZOF2TSZHCGL8FFSS3V4C.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_Builtin_inttypes-DUU9QX3B6KQRAI3NAEWGRVV7U.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/_Builtin_limits-866AKDFASTOSBJJD8LT2MA63.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/Darwin-C4DM6VZ6FWJFLYVLGYSGNZGLF.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/MachO-2HMMTXZPT3UR37O72XWERGUYJ.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/ObjectiveC-257L2GTWD8C7F1G2IXE55M0NX.pcm \
+  /Users/chrimuel/Documents/Code/privat/AI/adium/Dependencies/MMTabBarView/MMTabBarView/build/ExplicitPrecompiledModules/os_object-22JI4JF3NFHUZPGRE9Z1GKYBQ.pcm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/os/workgroup_object.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/os/workgroup_interval.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/os/workgroup_parallel.h
