@@ -32,6 +32,10 @@ static const CGFloat kMMTahoePillInsetY = 4.0;
 static const CGFloat kMMTahoeContentPaddingLeft = 6.0;
 static const CGFloat kMMTahoeContentPaddingRight = 11.0;
 
+// The unread badge is a filled pill of its own, so it may sit closer to the
+// rounded cap than the title, which is what the trailing padding above protects.
+static const CGFloat kMMTahoeCounterPaddingRight = 8.0;
+
 static const CGFloat kMMTahoeBarHeight = 34.0;
 
 // Status icons from typical icon packs carry a bit of baked-in bottom
@@ -181,6 +185,31 @@ static const CGFloat kMMTahoeIconNudgeY = 1.0;
     // alignment; text rendering handles fractional offsets fine.
     result.origin.y += 0.5;
     return result;
+}
+
+/* Same geometry as MMTabBarButtonCell computes for itself, only the trailing clearance is the
+ * badge's own: the generic version ends the badge where the title has to stop, which leaves it
+ * further from the rounded cap than a filled pill needs to be. */
+- (NSRect)objectCounterRectForBounds:(NSRect)theRect ofTabCell:(MMTabBarButtonCell *)cell
+{
+    if (!cell.showObjectCount)
+        return NSZeroRect;
+
+    NSRect  drawingRect = [self drawingRectForBounds:theRect ofTabCell:cell];
+    NSRect  indicatorRect = [cell indicatorRectForBounds:theRect];
+    NSSize  counterSize = cell.objectCounterSize;
+    NSRect  result;
+
+    drawingRect.size.width += (kMMTahoeContentPaddingRight - kMMTahoeCounterPaddingRight);
+
+    if (!NSEqualRects(indicatorRect, NSZeroRect))
+        drawingRect.size.width -= NSWidth(indicatorRect) + kMMTabBarCellPadding;
+
+    result.size = counterSize;
+    result.origin.x = NSMaxX(drawingRect) - counterSize.width;
+    result.origin.y = ceil(NSMinY(drawingRect) + (NSHeight(drawingRect) - counterSize.height) / 2.0);
+
+    return NSIntegralRect(result);
 }
 
 - (CGFloat)desiredWidthOfTabCell:(MMTabBarButtonCell *)cell
