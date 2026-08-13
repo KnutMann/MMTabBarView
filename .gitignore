@@ -1,5 +1,10 @@
 # Xcode
-build/*
+# "build" plain, neither "build/*" nor "build/": a pattern containing a slash is
+# anchored to this file's directory, so the old build/* covered /build only and let
+# the nested MMTabBarView/build through - and that one is a symlink to the host
+# project's build directory, which a trailing slash would not match either. 821 of
+# that directory's precompiled modules were committed through the link by accident.
+build
 *.pbxuser
 !default.pbxuser
 *.mode1v3
