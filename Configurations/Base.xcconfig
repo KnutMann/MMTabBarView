@@ -3,9 +3,17 @@ GCC_C_LANGUAGE_STANDARD = gnu99
 MACOSX_DEPLOYMENT_TARGET = 10.13
 SDKROOT = macosx
 COMBINE_HIDPI_IMAGES = NO
-WARNING_CFLAGS = -Wmost -Wno-four-char-constants -Wno-unknown-pragmas
+// -Wmost, not -Weverything. -Weverything turns on every diagnostic clang has, including ones that
+// contradict each other and ones that merely disagree with a house style: it reported 604 warnings
+// here, of which 276 were -Wdeclaration-after-statement - code this very file declares legal by
+// setting gnu99 above - plus 92 for the framework's own _leadingUnderscore naming and 92
+// -Wstrict-prototypes, which says nothing about Objective-C. Noise on that scale hides the few real
+// findings instead of surfacing them, so the setting is the defect, not the 604 places.
+// LLVM documents -Weverything as a diagnostic aid rather than a build setting. -Wmost is what this
+// file already asked for on the line below before a second assignment silently overrode it - an
+// xcconfig keeps the last assignment, so the sane one had been dead for years.
 GCC_VERSION = com.apple.compilers.llvm.clang.1_0
 GCC_PREFIX_HEADER = $(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h
 GCC_PRECOMPILE_PREFIX_HEADER = YES
 CLANG_ENABLE_MODULES = YES
-WARNING_CFLAGS = -Weverything -Wno-custom-atomic-properties -Wno-direct-ivar-access -Wno-float-equal -Wno-gnu  -Wno-objc-missing-property-synthesis
+WARNING_CFLAGS = -Wmost -Wno-four-char-constants -Wno-unknown-pragmas

@@ -2708,9 +2708,7 @@ static NSMutableDictionary<NSString*, Class <MMTabStyle>> *registeredStyleClasse
 - (void)_beginResizingWithMouseDownEvent:(NSEvent *)theEvent {
 
     NSEvent *nextEvent = nil,
-            *firstEvent = nil,
-            *dragEvent = nil,
-            *mouseUp = nil;
+            *firstEvent = nil;
     NSDate *expiration = NSDate.distantFuture;
 
     if (self.orientation == MMTabBarHorizontalOrientation)
@@ -2728,7 +2726,6 @@ static NSMutableDictionary<NSString*, Class <MMTabStyle>> *registeredStyleClasse
         }
         
         if (nextEvent.type == NSEventTypeLeftMouseDragged) {
-            dragEvent = nextEvent;
 
             NSPoint currentPoint = [self convertPoint:nextEvent.locationInWindow fromView:nil];
             NSRect frame = self.frame;
@@ -2753,7 +2750,6 @@ static NSMutableDictionary<NSString*, Class <MMTabStyle>> *registeredStyleClasse
             }
                     
         } else if (nextEvent.type == NSEventTypeLeftMouseUp) {
-            mouseUp = nextEvent;
             break;
         }
         

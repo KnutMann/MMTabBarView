@@ -14,7 +14,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 #define StaticImage(name) \
-static NSImage* _static##name##Image() \
+static NSImage* _static##name##Image(void) \
 { \
     static NSImage* image = nil; \
     if (!image) \

@@ -62,7 +62,6 @@ NS_ASSUME_NONNULL_BEGIN
 
     NSArray<MMAttachedTabBarButton *> *attachedButtons = _tabBarView.orderedAttachedButtons;
             
-    NSInteger buttonCount = attachedButtons.count;
     
         // add dragged button if available
     if (_tabBarView.destinationIndexForDraggedItem != NSNotFound) {
@@ -72,8 +71,6 @@ NS_ASSUME_NONNULL_BEGIN
             NSMutableArray<MMAttachedTabBarButton *> *mutable = [attachedButtons mutableCopy];
             [mutable insertObject:draggedButton atIndex:_tabBarView.destinationIndexForDraggedItem];
             attachedButtons = mutable;
-            
-            buttonCount++;
         }
     }
     
