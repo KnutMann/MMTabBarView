@@ -203,6 +203,19 @@ static MMTahoeAppearance MMTahoeAppearanceOfTabBarView(MMTabBarView *tabBarView)
  * tab swaps the icon for a circled X, like Chrome does with favicons. */
 
 /*!
+ * @brief No large image, in any orientation
+ *
+ * The large image is the buddy picture. MMTabBarButtonCell offers it to vertical tab bars only, and
+ * a style that says nothing gets the framework's own rect, so turning the tab bar sideways made
+ * every tab sprout a picture that the same tabs never show lying flat. This style has one slot for
+ * one image, described above, and it is the same slot in both orientations.
+ */
+- (NSRect)largeImageRectForBounds:(NSRect)theRect ofTabCell:(MMTabBarButtonCell *)cell
+{
+    return NSZeroRect;
+}
+
+/*!
  * @brief How much room the leading slot takes, or zero when nothing occupies it
  *
  * The slot is kMMTabBarIconWidth wide and holds whichever of icon and close button is showing,
