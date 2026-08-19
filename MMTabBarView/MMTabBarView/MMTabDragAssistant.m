@@ -101,7 +101,14 @@ static MMTabDragAssistant *sharedDragAssistant = nil;
 - (void)draggingSession:(NSDraggingSession *)session willBeginAtPoint:(NSPoint)screenPoint withTabBarView:(MMTabBarView *)tabBarView {
 
 	if (_draggedTab) {
-		[_draggedTab.window setFrameTopLeftPoint:screenPoint];
+		if (_centersDragWindows) {
+			NSRect frame = _draggedTab.window.frame;
+			frame.origin = NSMakePoint(screenPoint.x - frame.size.width / 2,
+									   screenPoint.y - frame.size.height / 2);
+			[_draggedTab.window setFrame:frame display:NO];
+		} else {
+			[_draggedTab.window setFrameTopLeftPoint:screenPoint];
+		}
 		[_draggedTab.window orderFront:nil];
 
 		if (tabBarView.tabView.numberOfTabViewItems == 1) {
@@ -130,13 +137,13 @@ static MMTabDragAssistant *sharedDragAssistant = nil;
 		}
 
 		if (_draggedView) {
-			//move the view representation with the tab
-			//the relative position of the dragged view window will be different
-			//depending on the position of the tab bar relative to the controlled tab view
-			screenPoint.y -= _draggedTab.window.frame.size.height;
-			screenPoint.x -= _dragWindowOffset.width;
-			screenPoint.y += _dragWindowOffset.height;
-			[_draggedView.window setFrameTopLeftPoint:screenPoint];
+			/* The view representation rides on the ghost's actual frame, wherever that was
+			 * anchored; measuring from the raw cursor point again would shear the two apart
+			 * as soon as the ghost is centered rather than hung off the pointer's corner. */
+			NSRect ghostFrame = _draggedTab.window.frame;
+			NSPoint viewTopLeft = NSMakePoint(NSMinX(ghostFrame) - _dragWindowOffset.width,
+											  NSMinY(ghostFrame) + _dragWindowOffset.height);
+			[_draggedView.window setFrameTopLeftPoint:viewTopLeft];
 		}
 	}
 }
@@ -798,6 +805,10 @@ static MMTabDragAssistant *sharedDragAssistant = nil;
             
         // begin dragging session
     _currentTearOffStyle = tabBarView.tearOffStyle;
+    /* Centered under the pointer, so what the hand drags is what the eye sees: the drop target
+     * is always determined by the cursor, and a ghost hanging off to one side reads as if the
+     * tab itself had to hit the bar while in truth the mouse must. */
+    _centersDragWindows = (_currentTearOffStyle == MMTabBarTearOffAlphaWindow);
     _draggedTab = [[MMTabDragWindowController alloc] initWithImage:dragImage styleMask:NSWindowStyleMaskBorderless tearOffStyle:_currentTearOffStyle];
 
     NSPoint location = aButton.frame.origin;
