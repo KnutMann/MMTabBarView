@@ -29,8 +29,11 @@ NS_ASSUME_NONNULL_BEGIN
 		_view = window.dragView;
 		_tearOffStyle = tearOffStyle;
 
+		/* A clear backing for both styles: the drag images carry transparency (a tab
+		 * ghost outside its rounded shape, a miniwindow around its frame), and the
+		 * window's default backing filled those corners white. */
+		[window setBackgroundColor:NSColor.clearColor];
 		if (tearOffStyle == MMTabBarTearOffMiniwindow) {
-			[window setBackgroundColor:NSColor.clearColor];
 			[window setHasShadow:YES];
 		}
 

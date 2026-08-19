@@ -209,7 +209,10 @@ inline static NSBitmapImageRep* imageForView(NSView* const inView, NSRect const 
         // assure that we will draw the tab bar contents correctly
     [self setFrame:self.stackingFrame];
 
-	NSBitmapImageRep* const imageRep = imageForView(self.tabBarView, self.draggingRect);
+	/* The button draws itself, and nothing else: outside its rounded shape the snapshot
+	 * stays transparent. Snapshotting the tab bar's rectangle instead carried the bar's
+	 * background into the corners, and the ghost flew as a rectangle whatever the style. */
+	NSBitmapImageRep* const imageRep = imageForView(self, self.bounds);
 	NSImage* image = [[NSImage alloc] initWithSize:imageRep.size];
 	[image addRepresentation:imageRep];
 	NSImage* returnImage = [[NSImage alloc] initWithSize:imageRep.size];
