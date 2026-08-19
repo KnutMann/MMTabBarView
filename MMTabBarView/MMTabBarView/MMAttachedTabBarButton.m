@@ -190,7 +190,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 inline static NSBitmapImageRep* imageForView(NSView* const inView, NSRect const inBounds) {
 	if (@available(macOS 10.14, *)) {
-		NSBitmapImageRep* const imageRep = [inView bitmapImageRepForCachingDisplayInRect:inView.visibleRect];
+		/* The rep must be allocated for the same rect that is cached into it. Sized to the
+		 * view's whole visibleRect, as it was, the drag ghost of a tab button came out the
+		 * size of the entire tab bar, white but for the button rendered into one corner. */
+		NSBitmapImageRep* const imageRep = [inView bitmapImageRepForCachingDisplayInRect:inBounds];
 		[inView cacheDisplayInRect:inBounds toBitmapImageRep:imageRep];
 		return imageRep;
 	}
