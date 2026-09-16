@@ -73,7 +73,6 @@ NS_ASSUME_NONNULL_BEGIN
     BOOL                            _useOverflowMenu;
     BOOL                            _alwaysShowActiveTab;
     BOOL                            _allowsScrubbing;
-    NSInteger                       _resizeAreaCompensation;
     MMTabBarOrientation             _orientation;
     BOOL                            _automaticallyAnimates;
     MMTabBarTearOffStyle            _tearOffStyle;
@@ -196,11 +195,6 @@ static NSMutableDictionary<NSString*, Class <MMTabStyle>> *registeredStyleClasse
 	}
 }
 
-- (void)viewDidMoveToWindow {
-    [super viewDidMoveToWindow];
-	[self _checkWindowFrame];
-}
-
 - (void)viewWillStartLiveResize {
 	[super viewWillStartLiveResize];
     for (MMAttachedTabBarButton *aButton in self.attachedButtons) {
@@ -213,7 +207,6 @@ static NSMutableDictionary<NSString*, Class <MMTabStyle>> *registeredStyleClasse
 		[aButton.indicator performSelector:@selector(startAnimation:) withObject:nil afterDelay:0.0];
 	}
 
-	[self _checkWindowFrame];
 	[self update:NO];
 	[super viewDidEndLiveResize];
 }
@@ -267,16 +260,14 @@ static NSMutableDictionary<NSString*, Class <MMTabStyle>> *registeredStyleClasse
 /*!
     @method     availableWidthForButtons
     @abstract   The number of pixels available for buttons
-    @discussion Calculates the number of pixels available for buttons based on margins and the window resize badge.
+    @discussion Calculates the number of pixels available for buttons based on margins.
     @returns    Returns the amount of space for buttons.
  */
 
 - (CGFloat)availableWidthForButtons {
 
     CGFloat result = self.frame.size.width - self.leftMargin - self.rightMargin;
-        
-    result -= _resizeAreaCompensation;
-    
+
         //Don't let attached buttons overlap the add tab button if it is visible
 	if (self.showAddTabButton) {
 		result -= self.addTabButtonSize.width + 2*kMMTabBarCellPadding;
@@ -288,16 +279,14 @@ static NSMutableDictionary<NSString*, Class <MMTabStyle>> *registeredStyleClasse
 /*!
     @method     availableHeightForButtons
     @abstract   The number of pixels available for buttons
-    @discussion Calculates the number of pixels available for buttons based on margins and the window resize badge.
+    @discussion Calculates the number of pixels available for buttons based on margins.
     @returns    Returns the amount of space for buttons.
  */
 
 - (CGFloat)availableHeightForButtons {
 
     CGFloat result = self.bounds.size.height - self.topMargin - self.bottomMargin;
-    
-    result -= _resizeAreaCompensation;
-        
+
 	//Don't let attached buttons overlap the add tab button if it is visible
 	if (self.showAddTabButton) {
 		result -= self.addTabButtonRect.size.height;
@@ -2283,8 +2272,6 @@ static NSMutableDictionary<NSString*, Class <MMTabStyle>> *registeredStyleClasse
 }
 
 - (void)frameDidChange:(NSNotification *)notification {
-	[self _checkWindowFrame];
-
 	// trying to address the drawing artifacts for the progress indicators - hackery follows
 	// this one fixes the "blanking" effect when the control hides and shows itself
     for (MMAttachedTabBarButton *aButton in self.attachedButtons) {
@@ -2540,25 +2527,6 @@ static NSMutableDictionary<NSString*, Class <MMTabStyle>> *registeredStyleClasse
 
     [_addTabButton setHidden:!_showAddTabButton];
     [_addTabButton setNeedsDisplay:YES];
-}
-
-- (void)_checkWindowFrame {
-        //figure out if the new frame puts the control in the way of the resize widget
-	NSWindow *window = self.window;
-
-	if (window) {
-		NSRect resizeWidgetFrame = window.contentView.frame;
-		resizeWidgetFrame.origin.x += resizeWidgetFrame.size.width - 22;
-		resizeWidgetFrame.size.width = 22;
-		resizeWidgetFrame.size.height = 22;
-
-		if (window.showsResizeIndicator && NSIntersectsRect(self.frame, resizeWidgetFrame)) {
-                //the resize widgets are larger on metal windows
-			_resizeAreaCompensation = window.styleMask & NSWindowStyleMaskTexturedBackground ? 20 : 8;
-		} else {
-			_resizeAreaCompensation = 0;
-		}
-	}
 }
 
 - (id <MMTabBarItem>)_dataSourceForSelector:(SEL)sel withTabViewItem:(NSTabViewItem *)item {
