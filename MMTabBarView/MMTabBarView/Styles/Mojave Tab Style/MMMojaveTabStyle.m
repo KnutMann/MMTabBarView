@@ -59,7 +59,7 @@ NS_ASSUME_NONNULL_BEGIN
     }
     else
     {
-        return NSMakeSize(NSViewNoInstrinsicMetric, 26);
+        return NSMakeSize(NSViewNoIntrinsicMetric, 26);
     }
 }
 

@@ -619,7 +619,7 @@ static MMTahoeAppearance MMTahoeAppearanceOfTabBarView(MMTabBarView *tabBarView)
     }
 
     NSColor *fillColor = nil;
-    if (button.state == NSOnState)
+    if (button.state == NSControlStateValueOn)
         fillColor = [NSColor colorWithCalibratedWhite:(dark ? 1.0 : 1.0)
                                                 alpha:(dark ? 0.22 : 0.65)];
     else if (button.cell.mouseHovered)

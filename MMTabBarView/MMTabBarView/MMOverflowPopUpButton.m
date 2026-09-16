@@ -46,7 +46,7 @@ StaticImage(overflowImagePressed)
     
         _isAnimating = NO;
     
-		[self setBezelStyle:NSRegularSquareBezelStyle];
+		[self setBezelStyle:NSBezelStyleFlexiblePush];
 		[self setBordered:NO];
 		[self setTitle:@""];
 		[self setPreferredEdge:NSMaxYEdge];

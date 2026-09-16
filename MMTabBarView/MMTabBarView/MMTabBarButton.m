@@ -316,11 +316,11 @@ static NSString *kMMTabBarButtonOberserverContext = @"MMTabBarView.MMTabBarButto
     [_closeButton setImagePosition:NSImageOnly];
     [_closeButton setRolloverButtonType:MMRolloverActionButton];
     [_closeButton setBordered:NO];
-    [_closeButton setBezelStyle:NSShadowlessSquareBezelStyle];
+    [_closeButton setBezelStyle:NSBezelStyleSmallSquare];
     [self addSubview:_closeButton];
 
     _indicator = [[MMProgressIndicator alloc] initWithFrame:NSMakeRect(0.0, 0.0, kMMTabBarIndicatorWidth, kMMTabBarIndicatorWidth)];
-    [_indicator setStyle:NSProgressIndicatorSpinningStyle];
+    [_indicator setStyle:NSProgressIndicatorStyleSpinning];
     [_indicator setAutoresizingMask:NSViewMinYMargin];
     [_indicator setControlSize: NSControlSizeSmall];
     NSRect indicatorRect = [self _indicatorRectForBounds:self.bounds];

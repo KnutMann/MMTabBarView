@@ -157,7 +157,7 @@
 - (IBAction)hasLargeImageAction:(id)sender {
     
 	DemoFakeModel* const tabBarItem = tabView.selectedTabViewItem.identifier;
-    if ([(NSButton*) sender state] == NSOnState) {
+    if ([(NSButton*) sender state] == NSControlStateValueOn) {
          [tabBarItem setValue:[NSImage imageNamed:@"largeImage"] forKeyPath:@"largeImage"];
     } else {
         [tabBarItem setValue:nil forKeyPath:@"largeImage"];
@@ -223,7 +223,7 @@
     NSSize intrinsicTabBarContentSize = tabBar.intrinsicContentSize;
 
 	if (newOrientation == MMTabBarHorizontalOrientation) {
-        if (intrinsicTabBarContentSize.height == NSViewNoInstrinsicMetric)
+        if (intrinsicTabBarContentSize.height == NSViewNoIntrinsicMetric)
             intrinsicTabBarContentSize.height = 22;
 		tabBarFrame.size.height = tabBar.isTabBarHidden ? 1 : intrinsicTabBarContentSize.height;
 		tabBarFrame.size.width = totalFrame.size.width;

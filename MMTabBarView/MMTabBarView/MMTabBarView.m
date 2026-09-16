@@ -243,13 +243,13 @@ static NSMutableDictionary<NSString*, Class <MMTabStyle>> *registeredStyleClasse
 			if (@available(macos 10.11, *)) {
 				return NSMakeSize(NSViewNoIntrinsicMetric, 0);
 			} else {
-				return NSMakeSize(NSViewNoInstrinsicMetric, 0);
+				return NSMakeSize(NSViewNoIntrinsicMetric, 0);
 			}
 		else
 			return [_style intrinsicContentSizeOfTabBarView:self];
 	}
 
-    return NSMakeSize(NSViewNoInstrinsicMetric, NSViewNoInstrinsicMetric);
+    return NSMakeSize(NSViewNoIntrinsicMetric, NSViewNoIntrinsicMetric);
 }
 
 #pragma mark -
@@ -2799,7 +2799,7 @@ StaticImage(AquaTabNewRollover)
     [_addTabButton setImagePosition:NSImageOnly];
     [_addTabButton setRolloverButtonType:MMRolloverActionButton];
     [_addTabButton setBordered:NO];
-    [_addTabButton setBezelStyle:NSShadowlessSquareBezelStyle];
+    [_addTabButton setBezelStyle:NSBezelStyleSmallSquare];
     
     if (_style && [_style respondsToSelector:@selector(updateAddButton:ofTabBarView:)])
         [_style updateAddButton:_addTabButton ofTabBarView:self];
