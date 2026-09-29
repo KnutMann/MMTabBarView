@@ -636,8 +636,13 @@ static MMTabDragAssistant *sharedDragAssistant = nil;
 - (NSImage *)_miniwindowImageOfWindow:(NSWindow *)window {
 	NSRect rect = window.frame;
 	NSImage *image = [[NSImage alloc] initWithSize:rect.size];
-	void* const graphicsPort = NSGraphicsContext.currentContext.graphicsPort;
-	if (graphicsPort != nil) {
+	/* -graphicsPort handed out the very same CGContextRef, only typed as an untyped void*, and
+	 * AppKit deprecated it in 10.14 in favour of -CGContext, which returns that pointer with its
+	 * real type. The capture therefore lands in the context it always landed in. It is still read
+	 * from whatever context is current on entry, before the image is focused below, because that
+	 * is the order this method has always used. */
+	CGContextRef const graphicsPort = NSGraphicsContext.currentContext.CGContext;
+	if (graphicsPort != NULL) {
 		[image lockFocus];
 		rect.origin = NSZeroPoint;
 		CGContextCopyWindowCaptureContentsToRect(graphicsPort, *(CGRect *)&rect, NSApp.contextID, window.windowNumber, 0);

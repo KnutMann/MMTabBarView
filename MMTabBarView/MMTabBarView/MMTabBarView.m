@@ -34,7 +34,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 #define DIVIDER_WIDTH 3
 
-@interface MMTabBarView ()
+/* NSMenuItemValidation is the formal protocol that replaced the informal NSMenuValidation in
+ * 10.14; -validateMenuItem: further down is a method of it. Declaring the conformance is all that
+ * changes: the method itself, and the menu it answers for, stay as they were. Without it the
+ * compiler can only match the method against the deprecated informal declaration. */
+@interface MMTabBarView () <NSMenuItemValidation>
 
 // reordering
 @property (assign) BOOL isReorderingTabViewItems;

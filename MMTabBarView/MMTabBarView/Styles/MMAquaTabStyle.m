@@ -117,13 +117,18 @@ NS_ASSUME_NONNULL_BEGIN
 	if (cell.state == NSControlStateValueOn) {
 		NSRect aRect = NSMakeRect(cellFrame.origin.x, cellFrame.origin.y, cellFrame.size.width, cellFrame.size.height);
         
-		// proper tint
-		NSControlTint currentTint;
-		if (cell.controlTint == NSDefaultControlTint) {
-			currentTint = NSColor.currentControlTint;
-		} else{
-			currentTint = cell.controlTint;
-		}
+		/* Proper tint. This artwork knows two tints, graphite and blue, plus a washed out sheet
+		 * for a window that is not the key one. -[NSCell controlTint] was the per-cell override of
+		 * the system setting; AppKit deprecated it because it stopped honouring it in 10.14, and
+		 * neither this library, its demo nor Adium ever set it, so the test that stood here always
+		 * saw NSDefaultControlTint and always fell through to the system setting anyway. Asking
+		 * +[NSColor currentControlTint] straight away is therefore the same picture with one less
+		 * deprecated call. That class property is not deprecated: it is what AppKit still offers to
+		 * tell graphite from any other accent colour, which is the only distinction made here.
+		 * +[NSColor controlAccentColor] would not do: it hands back a colour, and this style has
+		 * bitmaps rather than a colour to tint, so it would have to be compared against a known
+		 * colour to pick one, and that comparison is not reliable. */
+		NSControlTint currentTint = NSColor.currentControlTint;
 
 		if (!tabBarView.isWindowActive) {
 			currentTint = NSClearControlTint;
@@ -192,13 +197,9 @@ NS_ASSUME_NONNULL_BEGIN
 		NSRect aRect = NSMakeRect(cellFrame.origin.x, cellFrame.origin.y, cellFrame.size.width, cellFrame.size.height);
         aRect.size.width += 5.0;
         
-            // proper tint
-		NSControlTint currentTint;
-		if (lastAttachedButtonCell.controlTint == NSDefaultControlTint) {
-			currentTint = NSColor.currentControlTint;
-		} else{
-			currentTint = lastAttachedButtonCell.controlTint;
-		}
+            // Proper tint, from the system setting alone; see -drawBezelOfTabCell:withFrame:inView:
+            // above for why the deprecated per-cell override is gone and the picture is unchanged.
+		NSControlTint currentTint = NSColor.currentControlTint;
 
 		if (!tabBarView.isWindowActive) {
 			currentTint = NSClearControlTint;

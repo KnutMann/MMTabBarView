@@ -70,13 +70,17 @@ static NSString *kMMTabBarButtonOberserverContext = @"MMTabBarView.MMTabBarButto
 
     [super resizeSubviewsWithOldSize:oldSize];
     
-        // We do not call -calcSize before drawing (as documented).
+        // We do not recalculate before drawing (as documented).
         // We only need to calculate size when resizing.
-    [self calcSize];
-}
-
-- (void)calcSize {
-
+        //
+        // This line used to read [self calcSize], with an override of -[NSControl calcSize] right
+        // below holding the two lines that now stand here. AppKit deprecated that method in 10.14
+        // ("this method should never be called") and points at -layout instead. Overriding -layout
+        // would not be the same thing: AppKit calls -layout on its own schedule, so the cell would
+        // recalculate at moments it never used to, on top of this one. Nothing in this library, in
+        // its demo or in Adium ever sent -calcSize to a tab bar button, so the override existed for
+        // this single call site alone; making the call here keeps the old timing exactly.
+        //
         // Let cell update (invokes -calcDrawInfo:)
         // Cell will update control's sub buttons too.
     [self.cell calcDrawInfo:self.bounds];

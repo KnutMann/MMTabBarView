@@ -189,18 +189,25 @@ NS_ASSUME_NONNULL_BEGIN
 }
 
 inline static NSBitmapImageRep* imageForView(NSView* const inView, NSRect const inBounds) {
-	if (@available(macOS 10.14, *)) {
-		/* The rep must be allocated for the same rect that is cached into it. Sized to the
-		 * view's whole visibleRect, as it was, the drag ghost of a tab button came out the
-		 * size of the entire tab bar, white but for the button rendered into one corner. */
-		NSBitmapImageRep* const imageRep = [inView bitmapImageRepForCachingDisplayInRect:inBounds];
-		[inView cacheDisplayInRect:inBounds toBitmapImageRep:imageRep];
-		return imageRep;
-	}
-	[inView lockFocus];
-	[inView display];  // forces update to ensure that we get current state
-	NSBitmapImageRep* imageRep = [[NSBitmapImageRep alloc] initWithFocusedViewRect:inBounds];
-	[inView unlockFocus];
+	/* The rep must be allocated for the same rect that is cached into it. Sized to the
+	 * view's whole visibleRect, as it was, the drag ghost of a tab button came out the
+	 * size of the entire tab bar, white but for the button rendered into one corner.
+	 *
+	 * This is the only path left. It used to stand beside -lockFocus / -display /
+	 * -[NSBitmapImageRep initWithFocusedViewRect:] / -unlockFocus, which AppKit deprecated in
+	 * 10.14, naming -cacheDisplayInRect:toBitmapImageRep: as their replacement. That older
+	 * path was already unreachable, because this target is built for macOS 12 and upwards, so
+	 * dropping it cannot change what the user sees. The two draw the same thing: the older one
+	 * forced a -display first and then read the pixels back out of the focused view, while
+	 * -cacheDisplayInRect:toBitmapImageRep: renders the view and its subviews into the rep on
+	 * the spot, current state and all.
+	 *
+	 * The scale survives too: -bitmapImageRepForCachingDisplayInRect: sizes its pixel buffer by
+	 * the backing scale factor of the view's window, so on a Retina screen the ghost still holds
+	 * twice as many pixels per point, while the rep's -size stays in points and the NSImage the
+	 * caller builds from it therefore keeps the button's own size. */
+	NSBitmapImageRep* const imageRep = [inView bitmapImageRepForCachingDisplayInRect:inBounds];
+	[inView cacheDisplayInRect:inBounds toBitmapImageRep:imageRep];
 	return imageRep;
 }
 
